@@ -637,8 +637,17 @@ img {
 .cta-left h2 {
     font-size: 36px;
     margin-bottom: 15px;
+.cta-left {
+    flex: 1;
 }
 
+.cta-left h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.cta-left p {
+    max-width: 500px;
 .cta-left p {
     max-width: 500px;
     opacity: 0.9;
@@ -687,6 +696,37 @@ img {
     opacity: 0.85;
 }
 
+.cta-trust span {
+    display: block;
+    margin-top: 5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .cta-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cta-right {
+        text-align: center;
+    }
+}
+
+/* Waves */
+.cta-wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    line-height: 0;
+}
+
+.wave-back {
+    z-index: 1;
+}
+
+.wave-front {
+    z-index: 2;
 .cta-trust span {
     display: block;
     margin-top: 5px;
