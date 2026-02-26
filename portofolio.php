@@ -1,17 +1,17 @@
 <?php
-$pageTitle = "Portofolio - InoKrea Digital Studio";
-$pageDesc = "Lihat portofolio proyek website, aplikasi custom, dan desain grafis dari InoKrea.";
+$pageTitle = 'Portofolio - InoKrea Digital Studio';
+$metaDesc = 'Lihat portofolio proyek website, aplikasi custom, dan desain grafis dari InoKrea.';
 include 'includes/header.php';
 ?>
 
 <!-- Portofolio -->
 <section class="section">
     <div class="container">
-        <h2 class="section-title" data-aos="fade-up">Portofolio</h2>
-        <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Beberapa karya terbaik yang telah kami hasilkan</p>
+        <h2 class="section-title">Portofolio</h2>
+        <p class="section-subtitle">Beberapa karya terbaik yang telah kami hasilkan</p>
 
         <!-- Filter Buttons -->
-        <div class="filter-buttons" id="filterButtons" data-aos="fade-up" data-aos-delay="200">
+        <div class="filter-buttons" id="filterButtons">
             <button class="filter-btn active" data-filter="all">Semua</button>
             <button class="filter-btn" data-filter="website">Website</button>
             <button class="filter-btn" data-filter="sistem">Sistem Aplikasi</button>
@@ -20,7 +20,7 @@ include 'includes/header.php';
 
         <!-- Portfolio Grid -->
         <div class="portfolio-grid" id="portfolioGrid">
-            <div class="portfolio-card" data-category="website" data-aos="zoom-in" data-aos-delay="0">
+            <div class="portfolio-card" data-category="website">
                 <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="Website Perusahaan">
                 <div class="portfolio-info">
                     <h4>Website PT Maju Jaya</h4>
@@ -28,7 +28,7 @@ include 'includes/header.php';
                     <button class="btn-detail" onclick="showDetail('Website PT Maju Jaya', 'Website company profile dengan desain modern, animasi halus, dan fitur manajemen konten. Dibangun dengan React dan Node.js.')">Lihat Detail</button>
                 </div>
             </div>
-            <div class="portfolio-card" data-category="sistem" data-aos="zoom-in" data-aos-delay="100">
+            <div class="portfolio-card" data-category="sistem">
                 <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1074&q=80" alt="Sistem Inventory">
                 <div class="portfolio-info">
                     <h4>Sistem Inventory CV Berkah</h4>
@@ -36,7 +36,7 @@ include 'includes/header.php';
                     <button class="btn-detail" onclick="showDetail('Sistem Inventory CV Berkah', 'Aplikasi berbasis web untuk manajemen stok, pembelian, penjualan, dan laporan. Menggunakan Laravel dan MySQL.')">Lihat Detail</button>
                 </div>
             </div>
-            <div class="portfolio-card" data-category="desain" data-aos="zoom-in" data-aos-delay="200">
+            <div class="portfolio-card" data-category="desain">
                 <img src="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="Branding Kafe">
                 <div class="portfolio-info">
                     <h4>Branding Kafe Kopi Nusantara</h4>
@@ -44,7 +44,7 @@ include 'includes/header.php';
                     <button class="btn-detail" onclick="showDetail('Branding Kafe Kopi Nusantara', 'Pembuatan identitas visual: logo, desain menu, signage, dan seragam. Konsep modern dengan sentuhan tradisional.')">Lihat Detail</button>
                 </div>
             </div>
-            <div class="portfolio-card" data-category="website" data-aos="zoom-in" data-aos-delay="300">
+            <div class="portfolio-card" data-category="website">
                 <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="E-commerce">
                 <div class="portfolio-info">
                     <h4>E-commerce Toko Online</h4>
@@ -52,7 +52,7 @@ include 'includes/header.php';
                     <button class="btn-detail" onclick="showDetail('E-commerce Toko Online', 'Platform e-commerce dengan fitur keranjang belanja, pembayaran online, dan manajemen produk. Dibangun dengan Vue dan Django.')">Lihat Detail</button>
                 </div>
             </div>
-            <div class="portfolio-card" data-category="sistem" data-aos="zoom-in" data-aos-delay="400">
+            <div class="portfolio-card" data-category="sistem">
                 <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1115&q=80" alt="CRM">
                 <div class="portfolio-info">
                     <h4>CRM Perusahaan</h4>
@@ -60,7 +60,7 @@ include 'includes/header.php';
                     <button class="btn-detail" onclick="showDetail('CRM Perusahaan', 'Sistem CRM untuk mengelola data pelanggan, interaksi, dan penjualan. Fitur laporan dan analitik.')">Lihat Detail</button>
                 </div>
             </div>
-            <div class="portfolio-card" data-category="desain" data-aos="zoom-in" data-aos-delay="500">
+            <div class="portfolio-card" data-category="desain">
                 <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1171&q=80" alt="Desain Brosur">
                 <div class="portfolio-info">
                     <h4>Brosur Promosi</h4>
