@@ -69,7 +69,7 @@ include 'includes/header.php';
 </section>
 
 <!-- Keunggulan Perusahaan -->
-<section class="hero-gradient">
+<section class="ino-hero">
     <div class="hero-container">
 
         <div class="hero-left">
