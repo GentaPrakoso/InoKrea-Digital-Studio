@@ -19,41 +19,52 @@ include 'includes/header.php';
             </div>
         </div>
         <div class="hero-image">
-            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="Tim InoKrea bekerja">
+            <img src="assets/img/logo_inokrea.jpg" alt="Logo InoKrea">
         </div>
     </div>
 </section>
 
 <!-- Ringkasan Layanan -->
-<section class="section">
+<section class="section layanan">
     <div class="container">
+
         <h2 class="section-title">Layanan Utama Kami</h2>
-        <p class="section-subtitle">Solusi digital terpadu untuk kebutuhan bisnis Anda</p>
+        <p class="section-subtitle">
+            Solusi digital terpadu untuk kebutuhan bisnis Anda
+        </p>
+
         <div class="services-grid">
+
             <div class="service-card">
-                <div class="service-icon"><i class="fas fa-code"></i></div>
+                <div class="service-shape">WEB</div>
                 <h3>Pembuatan Website</h3>
                 <p>Company profile, e-commerce, landing page dengan desain modern dan responsif.</p>
             </div>
+
             <div class="service-card">
-                <div class="service-icon"><i class="fas fa-cogs"></i></div>
+                <div class="service-shape">APP</div>
                 <h3>Sistem Aplikasi Custom</h3>
                 <p>Aplikasi web sesuai kebutuhan bisnis Anda, dari inventory hingga CRM.</p>
             </div>
+
             <div class="service-card">
-                <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+                <div class="service-shape">UI</div>
                 <h3>UI/UX Design</h3>
                 <p>Desain antarmuka yang intuitif dan menarik untuk pengalaman pengguna terbaik.</p>
             </div>
+
             <div class="service-card">
-                <div class="service-icon"><i class="fas fa-vector-square"></i></div>
+                <div class="service-shape">DSGN</div>
                 <h3>Desain Grafis</h3>
                 <p>Logo, branding, banner, dan materi promosi lainnya yang memikat.</p>
             </div>
+
         </div>
+
         <div style="text-align: center; margin-top: 2rem;">
             <a href="layanan.php" class="btn btn-primary">Lihat Semua Layanan</a>
         </div>
+
     </div>
 </section>
 
