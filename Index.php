@@ -205,10 +205,47 @@ include 'includes/header.php';
 
 <!-- CTA Akhir -->
 <section class="cta-section">
-    <div class="container">
-        <h2>Siap Memulai Proyek Anda?</h2>
-        <p>Konsultasikan kebutuhan digital Anda dengan tim kami. Gratis!</p>
-        <a href="kontak.php" class="btn btn-primary">Hubungi Kami Sekarang</a>
+   <div class="container cta-flex">
+
+        <!-- Left Content -->
+        <div class="cta-left">
+            <h2>Siap Memulai Proyek Anda?</h2>
+            <p>
+                Konsultasikan kebutuhan digital Anda bersama tim InoKrea.
+                Gratis, tanpa komitmen, dan langsung bersama developer.
+            </p>
+            <div class="cta-trust">
+                <col> ✔ Respon cepat</col>
+                <col> ✔ Custom Development</col>
+                <col> ✔ Support After Launch</col>
+            </div>
+        </div>
+
+        <!-- Right Content -->
+        <div class="cta-right">
+            <a href="kontak.php" class="cta-btn">Hubungi Kami Sekarang</a>
+
+            
+        </div>
+
+    </div>
+
+    <!-- Wave Layer 1 (Transparan) -->
+    <div class="cta-wave wave-back">
+        <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+            <path fill="rgba(15,23,42,0.4)"
+                d="M0,224L80,218.7C160,213,320,203,480,202.7C640,203,800,213,960,224C1120,235,1280,245,1360,250.7L1440,256V320H0Z">
+            </path>
+        </svg>
+    </div>
+
+    <!-- Wave Layer 2 (Footer Color) -->
+    <div class="cta-wave wave-front">
+        <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+            <path fill="#161a35"
+                d="M0,256L80,245.3C160,235,320,213,480,202.7C640,192,800,192,960,202.7C1120,213,1280,235,1360,245.3L1440,256V320H0Z">
+            </path>
+        </svg>
     </div>
 </section>
 

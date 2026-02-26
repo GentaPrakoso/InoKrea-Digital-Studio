@@ -402,7 +402,7 @@ img {
 
 .ino-hero .btn-primary {
     background: #ffffff;
-    color: #4f46e5;
+    color: #161a35;
     padding: 12px 26px;
     border-radius: 8px;
     text-decoration: none;
@@ -611,32 +611,113 @@ img {
     color: var(--text-light);
 }
 
-/* ========== CTA ========== */
+/* ================= CTA SECTION ================= */
+
 .cta-section {
-    background: linear-gradient(135deg, var(--primary) 0%, #0f1329 100%);
-    color: var(--white);
-    text-align: center;
-    padding: 60px 0;
+    position: relative;
+    padding: 100px 20px 180px;
+    background: linear-gradient(135deg, #161a35, #d5c2bb);
+    color: #ffffff;
+    overflow: hidden;
 }
 
-.cta-section h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+.cta-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
-.cta-section p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
+.cta-left {
+    flex: 1;
+}
+
+.cta-left h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.cta-left p {
+    max-width: 500px;
     opacity: 0.9;
 }
 
-.cta-section .btn-primary {
-    background: var(--secondary);
-    color: var(--primary);
+.cta-right {
+    flex: 1;
+    text-align: right;
 }
 
-.cta-section .btn-primary:hover {
-    background: #c7b2a8;
+/* SVG harus dipaksa full */
+.cta-wave svg {
+    display: block;           /* HILANGKAN gap inline */
+    width: 100%;
+    height: 120px;            /* Atur tinggi sesuai kebutuhan */
+}   
+
+/* Wave wrapper */
+.cta-wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    overflow: hidden;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 14px 28px;
+    background: #ffffff;
+    color: #0f172a;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.cta-btn:hover {
+    transform: translateY(-3px);
+}
+
+.cta-trust {
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.85;
+}
+
+.cta-trust span {
+    display: block;
+    margin-top: 5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .cta-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cta-right {
+        text-align: center;
+    }
+}
+
+/* Waves */
+.cta-wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    line-height: 0;
+}
+
+.wave-back {
+    z-index: 1;
+}
+
+.wave-front {
+    z-index: 2;
 }
 
 /* ========== TENTANG KAMI ========== */
