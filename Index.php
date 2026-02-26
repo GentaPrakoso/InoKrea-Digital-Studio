@@ -69,32 +69,63 @@ include 'includes/header.php';
 </section>
 
 <!-- Keunggulan Perusahaan -->
-<section class="section" style="background: var(--bg-light);">
-    <div class="container">
-        <h2 class="section-title">Mengapa Memilih InoKrea?</h2>
-        <p class="section-subtitle">Kami berkomitmen memberikan yang terbaik untuk kesuksesan digital Anda</p>
-        <div class="features-grid">
-            <div class="feature-item">
-                <div class="feature-icon"><i class="fas fa-clock"></i></div>
-                <h4>Tepat Waktu</h4>
-                <p>Kami menghargai waktu Anda dengan penyelesaian proyek sesuai deadline.</p>
-            </div>
-            <div class="feature-item">
-                <div class="feature-icon"><i class="fas fa-crown"></i></div>
-                <h4>Kualitas Premium</h4>
-                <p>Standar tinggi dalam setiap kode dan desain yang kami hasilkan.</p>
-            </div>
-            <div class="feature-item">
-                <div class="feature-icon"><i class="fas fa-headset"></i></div>
-                <h4>Dukungan 24/7</h4>
-                <p>Tim support siap membantu Anda kapan saja.</p>
-            </div>
-            <div class="feature-item">
-                <div class="feature-icon"><i class="fas fa-lock"></i></div>
-                <h4>Keamanan Terjamin</h4>
-                <p>Kami menerapkan praktik terbaik untuk keamanan data Anda.</p>
+<section class="hero-gradient">
+    <div class="hero-container">
+
+        <div class="hero-left">
+            <p class="hero-label">INO KREA • DIGITAL SOLUTIONS</p>
+
+            <h1>
+                Solusi Website & Sistem Digital
+                yang Dibangun Sesuai Kebutuhan Bisnis Anda
+            </h1>
+
+            <p class="hero-description">
+                Kami membantu perusahaan dan UMKM membangun website, aplikasi,
+                dan sistem internal yang terstruktur, cepat, dan mudah dikembangkan.
+                Bukan sekadar tampilan menarik — tapi sistem yang benar-benar bekerja.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="kontak.php" class="btn-primary">Diskusi Proyek</a>
+                <a href="portofolio.php" class="btn-outline">Lihat Hasil Kerja Kami</a>
             </div>
         </div>
+
+        <div class="hero-right">
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <h3>50+</h3>
+                    <p>Proyek Diselesaikan</p>
+                </div>
+                <div class="stat-item">
+                    <h3>Custom</h3>
+                    <p>Tanpa Template Massal</p>
+                </div>
+                <div class="stat-item">
+                    <h3>Support</h3>
+                    <p>After Project Assistance</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Wave -->
+    <div class="wave wave-1">
+        <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+            <path fill="rgba(255,255,255,0.15)"
+                d="M0,160L80,176C160,192,320,224,480,218.7C640,213,800,171,960,144C1120,117,1280,107,1360,101.3L1440,96V320H0Z">
+            </path>
+        </svg>
+    </div>
+
+    <div class="wave wave-2">
+        <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+            <path fill="#ffffff"
+                d="M0,224L80,213.3C160,203,320,181,480,186.7C640,192,800,224,960,229.3C1120,235,1280,213,1360,202.7L1440,192V320H0Z">
+            </path>
+        </svg>
     </div>
 </section>
 
