@@ -1,15 +1,13 @@
 <?php
-$pageTitle = 'InoKrea Digital Studio - Solusi Digital Profesional';
-$metaDesc = 'InoKrea Digital Studio: Jasa pembuatan aplikasi website, sistem custom, dan desain grafis untuk perusahaan dan bisnis. Profesional, modern, dan terpercaya.';
-$ogTitle = 'InoKrea Digital Studio';
-$ogDesc = 'Solusi digital untuk perusahaan: website, sistem aplikasi, dan desain grafis.';
+$pageTitle = "InoKrea Digital Studio - Solusi Digital Profesional";
+$pageDesc = "Jasa pembuatan website, aplikasi custom, dan desain grafis untuk perusahaan.";
 include 'includes/header.php';
 ?>
 
 <!-- Hero Section -->
 <section class="hero">
     <div class="container">
-        <div class="hero-content">
+        <div class="hero-content" data-aos="fade-right">
             <h1>Wujudkan Ide Digital Anda Bersama InoKrea</h1>
             <p>Kami membantu perusahaan dan bisnis Anda tumbuh dengan solusi website, aplikasi custom, dan desain grafis yang profesional.</p>
             <div class="hero-buttons">
@@ -17,7 +15,7 @@ include 'includes/header.php';
                 <a href="portofolio.php" class="btn btn-secondary">Lihat Portofolio</a>
             </div>
         </div>
-        <div class="hero-image">
+        <div class="hero-image" data-aos="fade-left" data-aos-delay="200">
             <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="Tim InoKrea bekerja">
         </div>
     </div>
@@ -26,25 +24,25 @@ include 'includes/header.php';
 <!-- Ringkasan Layanan -->
 <section class="section">
     <div class="container">
-        <h2 class="section-title">Layanan Utama Kami</h2>
-        <p class="section-subtitle">Solusi digital terpadu untuk kebutuhan bisnis Anda</p>
+        <h2 class="section-title" data-aos="fade-up">Layanan Utama Kami</h2>
+        <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Solusi digital terpadu untuk kebutuhan bisnis Anda</p>
         <div class="services-grid">
-            <div class="service-card">
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="0">
                 <div class="service-icon"><i class="fas fa-code"></i></div>
                 <h3>Pembuatan Website</h3>
                 <p>Company profile, e-commerce, landing page dengan desain modern dan responsif.</p>
             </div>
-            <div class="service-card">
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
                 <div class="service-icon"><i class="fas fa-cogs"></i></div>
                 <h3>Sistem Aplikasi Custom</h3>
                 <p>Aplikasi web sesuai kebutuhan bisnis Anda, dari inventory hingga CRM.</p>
             </div>
-            <div class="service-card">
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
                 <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
                 <h3>UI/UX Design</h3>
                 <p>Desain antarmuka yang intuitif dan menarik untuk pengalaman pengguna terbaik.</p>
             </div>
-            <div class="service-card">
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="300">
                 <div class="service-icon"><i class="fas fa-vector-square"></i></div>
                 <h3>Desain Grafis</h3>
                 <p>Logo, branding, banner, dan materi promosi lainnya yang memikat.</p>
@@ -59,25 +57,25 @@ include 'includes/header.php';
 <!-- Keunggulan Perusahaan -->
 <section class="section" style="background: var(--bg-light);">
     <div class="container">
-        <h2 class="section-title">Mengapa Memilih InoKrea?</h2>
-        <p class="section-subtitle">Kami berkomitmen memberikan yang terbaik untuk kesuksesan digital Anda</p>
+        <h2 class="section-title" data-aos="fade-up">Mengapa Memilih InoKrea?</h2>
+        <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Kami berkomitmen memberikan yang terbaik untuk kesuksesan digital Anda</p>
         <div class="features-grid">
-            <div class="feature-item">
+            <div class="feature-item" data-aos="fade-up" data-aos-delay="0">
                 <div class="feature-icon"><i class="fas fa-clock"></i></div>
                 <h4>Tepat Waktu</h4>
                 <p>Kami menghargai waktu Anda dengan penyelesaian proyek sesuai deadline.</p>
             </div>
-            <div class="feature-item">
+            <div class="feature-item" data-aos="fade-up" data-aos-delay="100">
                 <div class="feature-icon"><i class="fas fa-crown"></i></div>
                 <h4>Kualitas Premium</h4>
                 <p>Standar tinggi dalam setiap kode dan desain yang kami hasilkan.</p>
             </div>
-            <div class="feature-item">
+            <div class="feature-item" data-aos="fade-up" data-aos-delay="200">
                 <div class="feature-icon"><i class="fas fa-headset"></i></div>
                 <h4>Dukungan 24/7</h4>
                 <p>Tim support siap membantu Anda kapan saja.</p>
             </div>
-            <div class="feature-item">
+            <div class="feature-item" data-aos="fade-up" data-aos-delay="300">
                 <div class="feature-icon"><i class="fas fa-lock"></i></div>
                 <h4>Keamanan Terjamin</h4>
                 <p>Kami menerapkan praktik terbaik untuk keamanan data Anda.</p>
@@ -89,24 +87,24 @@ include 'includes/header.php';
 <!-- Preview Portofolio -->
 <section class="section">
     <div class="container">
-        <h2 class="section-title">Portofolio Terbaru</h2>
-        <p class="section-subtitle">Beberapa proyek yang telah kami kerjakan</p>
+        <h2 class="section-title" data-aos="fade-up">Portofolio Terbaru</h2>
+        <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Beberapa proyek yang telah kami kerjakan</p>
         <div class="portfolio-preview-grid">
-            <div class="portfolio-item">
+            <div class="portfolio-item" data-aos="flip-left" data-aos-delay="0">
                 <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="Website Company">
                 <div class="portfolio-overlay">
                     <h4>Website Perusahaan</h4>
                     <p>PT Maju Jaya</p>
                 </div>
             </div>
-            <div class="portfolio-item">
+            <div class="portfolio-item" data-aos="flip-left" data-aos-delay="100">
                 <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1074&q=80" alt="Aplikasi Custom">
                 <div class="portfolio-overlay">
                     <h4>Sistem Inventory</h4>
                     <p>CV Berkah Abadi</p>
                 </div>
             </div>
-            <div class="portfolio-item">
+            <div class="portfolio-item" data-aos="flip-left" data-aos-delay="200">
                 <img src="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="Desain Grafis">
                 <div class="portfolio-overlay">
                     <h4>Branding & Logo</h4>
@@ -123,10 +121,10 @@ include 'includes/header.php';
 <!-- Testimoni (Dummy) -->
 <section class="section" style="background: var(--bg-light);">
     <div class="container">
-        <h2 class="section-title">Apa Kata Klien Kami</h2>
-        <p class="section-subtitle">Mereka telah merasakan manfaat bekerja sama dengan InoKrea</p>
+        <h2 class="section-title" data-aos="fade-up">Apa Kata Klien Kami</h2>
+        <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Mereka telah merasakan manfaat bekerja sama dengan InoKrea</p>
         <div class="testimonials-grid">
-            <div class="testimonial-card">
+            <div class="testimonial-card" data-aos="fade-up" data-aos-delay="0">
                 <p>"Tim InoKrea sangat profesional dan responsif. Website perusahaan kami selesai tepat waktu dan sesuai keinginan. Terima kasih!"</p>
                 <div class="testimonial-author">
                     <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="User">
@@ -136,7 +134,7 @@ include 'includes/header.php';
                     </div>
                 </div>
             </div>
-            <div class="testimonial-card">
+            <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
                 <p>"Desain yang diberikan sangat modern dan sesuai dengan brand kami. Proses revisi cepat dan hasilnya memuaskan. Recommended!"</p>
                 <div class="testimonial-author">
                     <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="User">
@@ -146,7 +144,7 @@ include 'includes/header.php';
                     </div>
                 </div>
             </div>
-            <div class="testimonial-card">
+            <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
                 <p>"Aplikasi inventory custom dari InoKrea sangat membantu operasional kami. Fitur sesuai kebutuhan dan dukungan teknisnya cepat."</p>
                 <div class="testimonial-author">
                     <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="User">
@@ -163,9 +161,9 @@ include 'includes/header.php';
 <!-- CTA Akhir -->
 <section class="cta-section">
     <div class="container">
-        <h2>Siap Memulai Proyek Anda?</h2>
-        <p>Konsultasikan kebutuhan digital Anda dengan tim kami. Gratis!</p>
-        <a href="kontak.php" class="btn btn-primary">Hubungi Kami Sekarang</a>
+        <h2 data-aos="zoom-in">Siap Memulai Proyek Anda?</h2>
+        <p data-aos="zoom-in" data-aos-delay="100">Konsultasikan kebutuhan digital Anda dengan tim kami. Gratis!</p>
+        <a href="kontak.php" class="btn btn-primary" data-aos="zoom-in" data-aos-delay="200">Hubungi Kami Sekarang</a>
     </div>
 </section>
 
