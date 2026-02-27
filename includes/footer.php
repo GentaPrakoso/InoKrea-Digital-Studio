@@ -36,9 +36,9 @@
             <div class="footer-links">
                 <h4>Kontak</h4>
                 <ul>
-                    <li>KP. Pasirwarru, Sukabumi</li>
-                    <li>+62 812 3456 7890</li>
-                    <li>info@inokrea.com</li>
+                    <li>KP. Pasirwaru, Cianjur</li>
+                    <li>+62 821 1327 189</li>
+                    <li>inokreastudio@gmail.com</li>
                 </ul>
             </div>
         </div>
