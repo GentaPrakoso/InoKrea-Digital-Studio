@@ -3,7 +3,19 @@ $pageTitle = 'Portofolio - InoKrea Digital Studio';
 $metaDesc = 'Lihat portofolio proyek website, aplikasi custom, dan desain grafis dari InoKrea.';
 include 'includes/header.php';
 ?>
+<section class="hero-top">
+    <img src="assets/img/yy.jpg" class="hero-bg" alt="Hero Image">
 
+    <div class="hero-content">
+        <h1>Portofolio Kami</h1>
+        <p class="hero-content">Setiap proyek yang kami kerjakan merupakan komitmen kami<br>
+        dalam menghadirkan solusi digital yang profesional, efektif,<br>
+        dan berdampak nyata bagi pertumbuhan bisnis klien.
+</p>
+        <br>
+        <a href="#konsultasi" class="hero-btn">Konsul</a>
+    </div>
+</section>
 <!-- Portofolio -->
 <section class="section">
     <div class="container">

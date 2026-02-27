@@ -48,6 +48,12 @@ $current_page = basename($_SERVER['PHP_SELF']);
             <div class="hamburger" id="hamburger">
                 <i class="fas fa-bars"></i>
             </div>
+            <script>
+window.addEventListener("scroll", function () {
+    const navbar = document.querySelector(".navbar");
+    navbar.classList.toggle("scrolled", window.scrollY > 50);
+});
+</script>
         </div>
     </nav>
     <main>

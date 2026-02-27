@@ -13,7 +13,7 @@ include 'includes/header.php';
 <section class="hero-landing">
 
     <video autoplay muted loop playsinline class="hero-landing__video">
-        <source src="assets/video/video.mp4" type="video/mp4">
+        <source src="assets/video/pee.mp4" type="video/mp4">
     </video>
 
     <div class="hero-landing__overlay"></div>
@@ -132,7 +132,7 @@ include 'includes/header.php';
 </section>
 
 <!-- Preview Portofolio -->
-<section class="section">
+<section class="section backgroundd">
     <div class="container">
         <h2 class="section-title">Portofolio Terbaru</h2>
         <p class="section-subtitle">Beberapa proyek yang telah kami kerjakan</p>
@@ -166,8 +166,7 @@ include 'includes/header.php';
 </section>
 
 <!-- Testimoni (Dummy) -->
-<section class="section" style="background: var(--bg-light);">
-    <div class="container">
+<section class="section backgroundd"> <div class="container">
         <h2 class="section-title">Apa Kata Klien Kami</h2>
         <p class="section-subtitle">Mereka telah merasakan manfaat bekerja sama dengan InoKrea</p>
         <div class="testimonials-grid">
@@ -202,8 +201,7 @@ include 'includes/header.php';
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </div></section>
 
 <!-- CTA Akhir -->
 <section class="cta-section">

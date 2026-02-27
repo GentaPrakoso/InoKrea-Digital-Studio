@@ -3,7 +3,17 @@ $pageTitle = 'Layanan - InoKrea Digital Studio';
 $metaDesc = 'Layanan pembuatan website, aplikasi custom, UI/UX design, dan desain grafis dari InoKrea.';
 include 'includes/header.php';
 ?>
+<section class="hero-top">
+    <img src="assets/img/yy.jpg" class="hero-bg" alt="Hero Image">
 
+    <div class="hero-content">
+        <h1>Layanan Kami</h1>
+        <p class="hero-content">Bangun, Kembangkan, dan Optimalkan Bisnis Anda Secara Digital.<br>
+InoKrea Digital Studio siap membantu Anda menciptakan <br>website profesional dan solusi digital yang mendorong pertumbuhan nyata.</p>
+        <br>
+        <a href="#konsultasi" class="hero-btn">Konsul</a>
+    </div>
+</section>
 <!-- Layanan Detail -->
 <section class="section">
     <div class="container">

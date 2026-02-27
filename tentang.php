@@ -3,7 +3,17 @@ $pageTitle = 'Tentang Kami - InoKrea Digital Studio';
 $metaDesc = 'Kenali lebih dekat InoKrea Digital Studio, mitra digital terpercaya untuk perusahaan Anda.';
 include 'includes/header.php';
 ?>
+<section class="hero-top">
+    <img src="assets/img/yy.jpg" class="hero-bg" alt="Hero Image">
 
+    <div class="hero-content">
+        <h1>Tentang Kami</h1>
+        <p class="hero-content">InoKrea Digital Studio hadir untuk membantu bisnis berkembang<br>
+         melalui solusi digital yang profesional, modern, dan efektif.</p>
+        <br>
+        <a href="#konsultasi" class="hero-btn">Konsul</a>
+    </div>
+</section>
 <!-- Tentang Kami -->
 <section class="section">
     <div class="container">
