@@ -3,25 +3,27 @@ $pageTitle = 'InoKrea Digital Studio - Solusi Digital Profesional';
 $metaDesc = 'InoKrea Digital Studio: Jasa pembuatan aplikasi website, sistem custom, dan desain grafis untuk perusahaan dan bisnis. Profesional, modern, dan terpercaya.';
 $ogTitle = 'InoKrea Digital Studio';
 $ogDesc = 'Solusi digital untuk perusahaan: website, sistem aplikasi, dan desain grafis.';
+$videoSource = "assets/video/video.mp4";
+$siteTitle = "InoKrea Digital Studio";
+$siteTagline = "Kami membantu bisnis Anda tampil profesional secara digital.";
 include 'includes/header.php';
 ?>
 
 <!-- Hero Section -->
-<section class="hero">
-    <div class="container">
-        <div class="hero-content">
-            <h2>InoKrea Digital Studio</h2>
-            <h1>Wujudkan Ide Digital Anda Bersama InoKrea</h1>
-            <p>Kami membantu perusahaan dan bisnis Anda tumbuh dengan solusi website, aplikasi custom, dan desain grafis yang profesional.</p>
-            <div class="hero-buttons">
-                <a href="kontak.php" class="btn btn-primary">Konsultasi Gratis</a>
-                <a href="portofolio.php" class="btn btn-secondary">Lihat Portofolio</a>
-            </div>
-        </div>
-        <div class="hero-image">
-            <img src="assets/img/logo_inokrea.jpg" alt="Logo InoKrea">
-        </div>
+<section class="hero-landing">
+
+    <video autoplay muted loop playsinline class="hero-landing__video">
+        <source src="assets/video/video.mp4" type="video/mp4">
+    </video>
+
+    <div class="hero-landing__overlay"></div>
+
+    <div class="hero-landing__content">
+        <h1><?php echo $siteTitle; ?></h1>
+        <p><?php echo $siteTagline; ?></p>
+        <a href="#layanan" class="hero-landing__btn">Lihat Layanan</a>
     </div>
+
 </section>
 
 <!-- Ringkasan Layanan -->
@@ -205,7 +207,7 @@ include 'includes/header.php';
 
 <!-- CTA Akhir -->
 <section class="cta-section">
-   <div class="container cta-flex">
+    <div class="container cta-flex">
 
         <!-- Left Content -->
         <div class="cta-left">
@@ -225,7 +227,7 @@ include 'includes/header.php';
         <div class="cta-right">
             <a href="kontak.php" class="cta-btn">Hubungi Kami Sekarang</a>
 
-            
+
         </div>
 
     </div>
