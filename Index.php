@@ -27,7 +27,7 @@ include 'includes/header.php';
 </section>
 
 <!-- Ringkasan Layanan -->
-<section class="section layanan">
+<section class="section layanan fade-in">
     <div class="container">
 
         <h2 class="section-title">Layanan Utama Kami</h2>
@@ -74,7 +74,7 @@ include 'includes/header.php';
 <section class="ino-hero">
     <div class="hero-container">
 
-        <div class="hero-left">
+        <div class="hero-left reveal-left">
             <p class="hero-label">INO KREA • DIGITAL SOLUTIONS</p>
 
             <h1>
@@ -94,7 +94,7 @@ include 'includes/header.php';
             </div>
         </div>
 
-        <div class="hero-right">
+        <div class="hero-right reveal-right">
             <div class="hero-stats">
                 <div class="stat-item">
                     <h3>50+</h3>
@@ -132,11 +132,11 @@ include 'includes/header.php';
 </section>
 
 <!-- Preview Portofolio -->
-<section class="section backgroundd">
+<section class="section backgroundd fade-in">
     <div class="container">
         <h2 class="section-title">Portofolio Terbaru</h2>
         <p class="section-subtitle">Beberapa proyek yang telah kami kerjakan</p>
-        <div class="portfolio-preview-grid">
+        <div class="portfolio-preview-grid card">
             <div class="portfolio-item">
                 <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="Website Company">
                 <div class="portfolio-overlay">
@@ -166,11 +166,11 @@ include 'includes/header.php';
 </section>
 
 <!-- Testimoni (Dummy) -->
-<section class="section backgroundd"> <div class="container">
+<section class="section backgroundd fade-in"> <div class="container">
         <h2 class="section-title">Apa Kata Klien Kami</h2>
         <p class="section-subtitle">Mereka telah merasakan manfaat bekerja sama dengan InoKrea</p>
         <div class="testimonials-grid">
-            <div class="testimonial-card">
+            <div class="testimonial-card card">
                 <p>"Tim InoKrea sangat profesional dan responsif. Website perusahaan kami selesai tepat waktu dan sesuai keinginan. Terima kasih!"</p>
                 <div class="testimonial-author">
                     <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="User">
@@ -180,7 +180,7 @@ include 'includes/header.php';
                     </div>
                 </div>
             </div>
-            <div class="testimonial-card">
+            <div class="testimonial-card card">
                 <p>"Desain yang diberikan sangat modern dan sesuai dengan brand kami. Proses revisi cepat dan hasilnya memuaskan. Recommended!"</p>
                 <div class="testimonial-author">
                     <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="User">
@@ -190,7 +190,7 @@ include 'includes/header.php';
                     </div>
                 </div>
             </div>
-            <div class="testimonial-card">
+            <div class="testimonial-card card">
                 <p>"Aplikasi inventory custom dari InoKrea sangat membantu operasional kami. Fitur sesuai kebutuhan dan dukungan teknisnya cepat."</p>
                 <div class="testimonial-author">
                     <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="User">
@@ -208,7 +208,7 @@ include 'includes/header.php';
     <div class="container cta-flex">
 
         <!-- Left Content -->
-        <div class="cta-left">
+        <div class="cta-left reveal-left">
             <h2>Siap Memulai Proyek Anda?</h2>
             <p>
                 Konsultasikan kebutuhan digital Anda bersama tim InoKrea.
@@ -222,7 +222,7 @@ include 'includes/header.php';
         </div>
 
         <!-- Right Content -->
-        <div class="cta-right">
+        <div class="cta-right reveal-right">
             <a href="kontak.php" class="cta-btn">Hubungi Kami Sekarang</a>
 
 
@@ -248,5 +248,19 @@ include 'includes/header.php';
         </svg>
     </div>
 </section>
+
+<script>
+const reveals = document.querySelectorAll('.reveal-left, .reveal-right');
+
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('active');
+        }
+    });
+});
+
+reveals.forEach(el => observer.observe(el));
+</script>
 
 <?php include 'includes/footer.php'; ?>
