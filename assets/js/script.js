@@ -107,5 +107,42 @@ document.addEventListener('DOMContentLoaded', function () {
         appearOnScroll.observe(fader);
     });
 
+    //fadein layanan 
+
+    window.addEventListener("scroll", function () {
+
+        const elements = document.querySelectorAll(".fade-service");
+
+        elements.forEach(function (el) {
+
+            const position = el.getBoundingClientRect().top;
+            const screenHeight = window.innerHeight;
+
+            if (position < screenHeight - 100) {
+                el.classList.add("active");
+            }
+
+        });
+
+    });
+
+    // fadein kontak 
+
+    const contactFade = document.querySelectorAll(".contact-fade");
+
+    function showContactFade() {
+        const trigger = window.innerHeight * 0.85;
+
+        contactFade.forEach(el => {
+            const top = el.getBoundingClientRect().top;
+
+            if (top < trigger) {
+                el.classList.add("show");
+            }
+        });
+    }
+
+    window.addEventListener("scroll", showContactFade);
+
 
 });

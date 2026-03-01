@@ -1066,44 +1066,299 @@ img {
     background: #ffffff;
     padding: 25px;
     border-radius: 16px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
     transition: all 0.4s ease;
 }
 
 .card:hover {
     transform: translateY(-10px) scale(1.03);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
 /* ========== LAYANAN DETAIL ========== */
-.services-detail-grid {
+
+.services-modern {
+    padding: 120px 20px;
+    background: #f4f6f9;
+}
+
+.services-modern .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ===== Section Head ===== */
+
+.section-head {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 80px;
+}
+
+.section-tag {
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 15px;
+}
+
+.section-head h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #111;
+    margin-bottom: 15px;
+}
+
+.section-head p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.7;
+}
+
+/* ===== Grid Layout ===== */
+
+.services-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
 }
 
-.detail-card {
-    background: var(--bg-light);
-    padding: 2rem;
-    border-radius: 10px;
-    border-bottom: 3px solid transparent;
-    transition: var(--transition);
+/* ===== Card ===== */
+
+.service-card {
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 18px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.06);
+    transition: all 0.35s ease;
+    border: 1px solid rgba(0, 0, 0, 0.04);
 }
 
-.detail-card:hover {
-    border-bottom-color: var(--secondary);
-    background: var(--white);
-    box-shadow: var(--shadow);
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.08);
 }
 
-.detail-card h3 {
-    margin: 1rem 0;
-    color: var(--primary);
+/* ===== Icon ===== */
+
+.icon-wrap {
+    width: 60px;
+    height: 60px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #6c63ff, #8e88ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
 }
 
-.detail-card i {
-    font-size: 2.5rem;
-    color: var(--secondary);
+.icon-wrap i {
+    font-size: 22px;
+    color: #fff;
+}
+
+/* ===== Title ===== */
+
+.service-card h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+/* ===== List ===== */
+
+.service-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.service-list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #555;
+}
+
+.service-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 7px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #6c63ff;
+}
+
+/* =========================
+   PRICING UMKM SECTION
+========================= */
+
+.pricing-umkm {
+    padding: 120px 20px;
+    background: #f5f7fa;
+}
+
+.pricing-umkm .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Section Head */
+
+.section-head {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 80px;
+}
+
+.section-tag {
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #888;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.section-head h2 {
+    font-size: 34px;
+    margin-bottom: 15px;
+    color: #111;
+}
+
+.section-head p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Grid */
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+/* Card */
+
+.pricing-card {
+    background: #ffffff;
+    padding: 45px 35px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    transition: 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.08);
+}
+
+/* Highlight */
+
+.highlight {
+    border: 2px solid #6c63ff;
+}
+
+.badge {
+    position: absolute;
+    top: -12px;
+    right: 25px;
+    background: #6c63ff;
+    color: #fff;
+    font-size: 12px;
+    padding: 6px 14px;
+    border-radius: 20px;
+}
+
+/* Price */
+
+.price {
+    margin: 20px 0 30px;
+}
+
+.price .start {
+    display: block;
+    font-size: 14px;
+    color: #777;
+}
+
+.price strong {
+    font-size: 26px;
+    color: #111;
+}
+
+/* List */
+
+.pricing-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 35px;
+}
+
+.pricing-list li {
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Button */
+
+.btn-pricing {
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 14px;
+    border: 1px solid #6c63ff;
+    color: #6c63ff;
+    transition: 0.3s ease;
+}
+
+.btn-pricing:hover {
+    background: #6c63ff;
+    color: #fff;
+}
+
+.btn-pricing.primary {
+    background: #6c63ff;
+    color: #fff;
+}
+
+.btn-pricing.primary:hover {
+    background: #584ff5;
+}
+
+/* Note */
+
+.pricing-note {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 13px;
+    color: #777;
+}
+
+/* =========================
+   SCROLL FADE ANIMATION
+========================= */
+
+.fade-service {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease;
+}
+
+.fade-service.active {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 /* ========== PORTOFOLIO FILTER ========== */
@@ -1228,87 +1483,134 @@ img {
 }
 
 /* ========== KONTAK ========== */
-.contact-grid {
+/* CONTACT SECTION */
+
+.contact-section {
+    padding: 100px 0;
+    background: #f9fafc;
+}
+
+.contact-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+    gap: 60px;
+    margin-top: 50px;
 }
 
-.contact-info {
+/* CONTACT INFO */
+
+.contact-card {
     display: flex;
-    flex-direction: column;
-    gap: 2rem;
+    gap: 15px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
 }
 
-.contact-item {
-    display: flex;
-    align-items: flex-start;
-    gap: 1rem;
-}
-
-.contact-item i {
-    font-size: 1.5rem;
-    color: var(--secondary);
-}
-
-.contact-item h4 {
-    margin-bottom: 0.3rem;
+.contact-card i {
+    font-size: 22px;
     color: var(--primary);
 }
 
-.map-container {
-    margin-top: 1rem;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: var(--shadow);
+.contact-card h4 {
+    margin-bottom: 5px;
 }
 
-.whatsapp-btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
+/* WHATSAPP BUTTON */
+
+.whatsapp-contact {
+    display: inline-block;
+    margin-top: 15px;
     background: #25D366;
-    color: white;
-    padding: 12px 30px;
-    border-radius: 5px;
-    font-weight: 600;
-    transition: var(--transition);
-    margin-top: 1rem;
-    width: fit-content;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
 }
 
-.whatsapp-btn:hover {
-    background: #128C7E;
-    transform: translateY(-2px);
+.whatsapp-contact:hover {
+    background: #1ebe5d;
 }
+
+/* MAP */
+
+.contact-map iframe {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: none;
+}
+
+/* FORM */
 
 .contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+    background: #fff;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 
-.form-group input,
-.form-group textarea {
+.form-group {
+    margin-bottom: 18px;
+}
+
+.contact-form input,
+.contact-form textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #e0e0e0;
-    border-radius: 5px;
-    font-family: inherit;
-    transition: var(--transition);
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
 }
 
-.form-group input:focus,
-.form-group textarea:focus {
-    outline: none;
-    border-color: var(--secondary);
-    box-shadow: 0 0 0 2px rgba(213, 194, 187, 0.2);
+.contact-form textarea {
+    height: 120px;
+    resize: none;
 }
 
-.form-group textarea {
-    resize: vertical;
-    min-height: 120px;
+.contact-btn {
+    background: var(--primary);
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.contact-btn:hover {
+    opacity: 0.9;
+}
+
+/* fade in kontak */
+
+/* CONTACT FADE */
+
+.contact-fade{
+    opacity:0;
+    transform:translateY(40px);
+    transition:all 0.8s ease;
+}
+
+.contact-fade.show{
+    opacity:1;
+    transform:translateY(0);
+}
+
+.delay-1{transition-delay:0.1s;}
+.delay-2{transition-delay:0.2s;}
+.delay-3{transition-delay:0.3s;}
+
+/* RESPONSIVE */
+
+@media(max-width:900px) {
+    .contact-wrapper {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* ========== FOOTER ========== */
