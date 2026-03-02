@@ -40,25 +40,45 @@ include 'includes/header.php';
             <div class="service-card">
                 <div class="service-shape">WEB</div>
                 <h3>Pembuatan Website</h3>
-                <p>Company profile, e-commerce, landing page dengan desain modern dan responsif.</p>
+                <ul class="service-list">
+                    <li>Company Profile Website</li>
+                    <li>Landing Page Bisnis</li>
+                    <li>Website E-Commerce</li>
+                    <li>Desain Responsive (Mobile Friendly)</li>
+                </ul>
             </div>
 
             <div class="service-card">
                 <div class="service-shape">APP</div>
                 <h3>Sistem Aplikasi Custom</h3>
-                <p>Aplikasi web sesuai kebutuhan bisnis Anda, dari inventory hingga CRM.</p>
+                <ul class="service-list">
+                    <li>Sistem Inventory</li>
+                    <li>CRM (Customer Management)</li>
+                    <li>Sistem Manajemen Data</li>
+                    <li>Dashboard Admin & Reporting</li>
+                </ul>
             </div>
 
             <div class="service-card">
                 <div class="service-shape">UI</div>
                 <h3>UI/UX Design</h3>
-                <p>Desain antarmuka yang intuitif dan menarik untuk pengalaman pengguna terbaik.</p>
+                <ul class="service-list">
+                    <li>Desain Website Modern</li>
+                    <li>Prototype & Wireframe</li>
+                    <li>Mobile App Interface</li>
+                    <li>User Experience Optimization</li>
+                </ul>
             </div>
 
             <div class="service-card">
                 <div class="service-shape">DSGN</div>
                 <h3>Desain Grafis</h3>
-                <p>Logo, branding, banner, dan materi promosi lainnya yang memikat.</p>
+                <ul class="service-list">
+                    <li>Logo & Branding</li>
+                    <li>Banner & Poster</li>
+                    <li>Desain Social Media</li>
+                    <li>Brosur & Materi Promosi</li>
+                </ul>
             </div>
 
         </div>
@@ -166,7 +186,8 @@ include 'includes/header.php';
 </section>
 
 <!-- Testimoni (Dummy) -->
-<section class="section backgroundd fade-in"> <div class="container">
+<section class="section backgroundd fade-in">
+    <div class="container">
         <h2 class="section-title">Apa Kata Klien Kami</h2>
         <p class="section-subtitle">Mereka telah merasakan manfaat bekerja sama dengan InoKrea</p>
         <div class="testimonials-grid">
@@ -201,7 +222,8 @@ include 'includes/header.php';
                 </div>
             </div>
         </div>
-    </div></section>
+    </div>
+</section>
 
 <!-- CTA Akhir -->
 <section class="cta-section">
@@ -250,17 +272,17 @@ include 'includes/header.php';
 </section>
 
 <script>
-const reveals = document.querySelectorAll('.reveal-left, .reveal-right');
+    const reveals = document.querySelectorAll('.reveal-left, .reveal-right');
 
-const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.classList.add('active');
-        }
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('active');
+            }
+        });
     });
-});
 
-reveals.forEach(el => observer.observe(el));
+    reveals.forEach(el => observer.observe(el));
 </script>
 
 <?php include 'includes/footer.php'; ?>
