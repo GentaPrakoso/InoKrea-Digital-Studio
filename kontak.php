@@ -1,21 +1,33 @@
 <?php
 $pageTitle = 'Kontak - InoKrea Digital Studio';
 $metaDesc = 'Hubungi InoKrea untuk konsultasi gratis dan informasi lebih lanjut.';
+$siteTitle = "Kontak Kami";
+$siteTagline = "Yuk, mulai perjalanan digital bisnis Anda bersama kami.
+            Hubungi tim kami sekarang dan dapatkan solusi yang sesuai dengan kebutuhan Anda.";
 include 'includes/header.php';
 ?>
-<section class="hero-top">
-    <img src="assets/img/yy.jpg" class="hero-bg" alt="Hero Image">
+<section class="hero-modern">
 
-    <div class="hero-content">
-        <h1>Kontak Kami</h1>
-        <p class="hero-content">Yuk, mulai perjalanan digital bisnis Anda bersama kami.<br>
-            Hubungi tim kami sekarang dan dapatkan solusi yang sesuai<br>dengan kebutuhan Anda.</p>
-        <br>
-        <a href="#konsultasi" class="hero-btn">Konsul</a>
+    <div class="container hero-grid fade-in">
+
+        <div class="hero-text">
+            <h1><?php echo $siteTitle; ?></h1>
+            <p><?php echo $siteTagline; ?></p>
+
+            <div class="hero-buttons">
+                <a href="kontak.php #kontak" class="btn-primary">Konsultasi Gratis</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="assets/img/aa.png" alt="Digital Service">
+        </div>
+
     </div>
+
 </section>
 <!-- Kontak -->
-<section class="contact-section">
+<section id="kontak" class="contact-section">
     <div class="container">
 
         <h2 class="section-title contact-fade">Hubungi Kami</h2>

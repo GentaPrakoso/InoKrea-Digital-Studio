@@ -1,22 +1,34 @@
 <?php
 $pageTitle = 'Tentang Kami - InoKrea Digital Studio';
 $metaDesc = 'Kenali lebih dekat InoKrea Digital Studio, mitra digital terpercaya untuk perusahaan Anda.';
+$siteTitle = "Tentang Kami";
+$siteTagline = "InoKrea Digital Studio hadir untuk membantu bisnis berkembang
+            melalui solusi digital yang profesional, modern, dan efektif.";
 include 'includes/header.php';
 ?>
-<section class="hero-top">
-    <img src="assets/img/yy.jpg" class="hero-bg" alt="Hero Image">
+<section class="hero-modern">
 
-    <div class="hero-content">
-        <h1>Tentang Kami</h1>
-        <p class="hero-content">InoKrea Digital Studio hadir untuk membantu bisnis berkembang<br>
-            melalui solusi digital yang profesional, modern, dan efektif.</p>
-        <br>
-        <a href="#konsultasi" class="hero-btn">Konsul</a>
+    <div class="container hero-grid fade-in">
+
+        <div class="hero-text">
+            <h1><?php echo $siteTitle; ?></h1>
+            <p><?php echo $siteTagline; ?></p>
+
+            <div class="hero-buttons">
+                <a href="kontak.php #kontak" class="btn-primary">Konsultasi Gratis</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="assets/img/aa.png" alt="Digital Service">
+        </div>
+
     </div>
+
 </section>
 <!-- Tentang Kami -->
-<section class="about-section fade-in">
-    <div class="container about-wrapper">
+<section class="about-section">
+    <div class="container about-wrapper fade-in">
         <div class="about-heading">
             <span class="label">Tentang Kami</span>
             <h2>Membangun Fondasi Digital yang Kuat untuk Bisnis Anda</h2>
@@ -38,8 +50,8 @@ include 'includes/header.php';
 </section>
 
 <!-- Visi dan Misi -->
-<section class="vm-modern fade-in">
-    <div class="container">
+<section class="vm-modern">
+    <div class="container fade-in">
 
         <div class="vm-header">
             <span class="vm-label">Our Direction</span>
@@ -80,8 +92,8 @@ include 'includes/header.php';
 </section>
 
 <!-- value -->
-<section class="values-modern fade-in">
-    <div class="container values-wrapper">
+<section class="values-modern">
+    <div class="container values-wrapper fade-in">
 
         <div class="values-intro">
             <span class="label">Core Values</span>

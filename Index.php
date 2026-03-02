@@ -9,25 +9,106 @@ $siteTagline = "Kami membantu bisnis Anda tampil profesional secara digital.";
 include 'includes/header.php';
 ?>
 
-<!-- Hero Section -->
-<section class="hero-landing">
+<section class="hero-modern">
 
-    <video autoplay muted loop playsinline class="hero-landing__video">
-        <source src="assets/video/pee.mp4" type="video/mp4">
-    </video>
+    <div class="container hero-grid fade-in">
 
-    <div class="hero-landing__overlay"></div>
+        <div class="hero-text">
+            <h1><?php echo $siteTitle; ?></h1>
+            <p><?php echo $siteTagline; ?></p>
 
-    <div class="hero-landing__content">
-        <h1><?php echo $siteTitle; ?></h1>
-        <p><?php echo $siteTagline; ?></p>
-        <a href="#layanan" class="hero-landing__btn">Lihat Layanan</a>
+            <div class="hero-buttons">
+                <a href="kontak.php #kontak" class="btn-primary">Hubungi Kami</a>
+                <a href="#layanan" class="btn-outline">Layanan Kami</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="assets/img/aa.png" alt="Digital Service">
+        </div>
+
     </div>
 
 </section>
 
+
+<!-- Keunggulan Perusahaan -->
+<section class="ino-hero">
+    <div class="section-divider"></div>
+    <br><br><br><br><br><br><br><br>
+    <div class="hero-container">
+
+    <div class="hero-left reveal-left">
+
+        <p class="hero-label">WEBSITE • SYSTEM • GRAPHIC DESIGN</p>
+
+        <h1>
+            Solusi Website, Sistem Digital, 
+            dan Desain Kreatif untuk Bisnis Modern
+        </h1>
+
+        <p class="hero-description">
+            InoKrea Digital Studio membantu bisnis, UMKM, dan organisasi 
+            membangun website profesional, sistem aplikasi yang terstruktur, 
+            serta desain visual yang kuat untuk memperkuat identitas brand. 
+            Kami menggabungkan teknologi dan kreativitas untuk menciptakan 
+            solusi digital yang efektif dan mudah dikembangkan.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="kontak.php #kontak" class="btn-primary">Diskusikan Proyek Anda</a>
+            <a href="#portofolio" class="btn-outline">Lihat Portofolio</a>
+        </div>
+
+    </div>
+
+    <div class="hero-right reveal-right">
+
+        <div class="hero-stats">
+
+            <div class="stat-item">
+                <h3>Website Development</h3>
+                <p>Website profesional untuk company profile, landing page, hingga e-commerce.</p>
+            </div>
+
+            <div class="stat-item">
+                <h3>Custom System</h3>
+                <p>Pembuatan aplikasi dan sistem digital yang disesuaikan dengan kebutuhan bisnis.</p>
+            </div>
+
+            <div class="stat-item">
+                <h3>Creative Design</h3>
+                <p>Desain grafis dan identitas visual untuk memperkuat brand bisnis Anda.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<br><br>
+    
+    
+        <!-- Wave -->
+    <div class="wave wave-1">
+        <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+            <path fill="rgba(255,255,255,0.15)"
+                d="M0,160L80,176C160,192,320,224,480,218.7C640,213,800,171,960,144C1120,117,1280,107,1360,101.3L1440,96V320H0Z">
+            </path>
+        </svg>
+    </div>
+
+    <div class="wave wave-2">
+        <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+            <path fill="#ffffff"
+                d="M0,224L80,213.3C160,203,320,181,480,186.7C640,192,800,224,960,229.3C1120,235,1280,213,1360,202.7L1440,192V320H0Z">
+            </path>
+        </svg>
+    </div>
+</section>
+
 <!-- Ringkasan Layanan -->
-<section class="section layanan fade-in">
+<section id="layanan" class="section layanan fade-in">
     <div class="container">
 
         <h2 class="section-title">Layanan Utama Kami</h2>
@@ -84,75 +165,14 @@ include 'includes/header.php';
         </div>
 
         <div style="text-align: center; margin-top: 2rem;">
-            <a href="layanan.php" class="btn btn-primary">Lihat Semua Layanan</a>
+            <a href="layanan.php #layanan" class="btn btn-primary">Lihat Semua Layanan</a>
         </div>
 
-    </div>
-</section>
-
-<!-- Keunggulan Perusahaan -->
-<section class="ino-hero">
-    <div class="hero-container">
-
-        <div class="hero-left reveal-left">
-            <p class="hero-label">INO KREA • DIGITAL SOLUTIONS</p>
-
-            <h1>
-                Solusi Website & Sistem Digital
-                yang Dibangun Sesuai Kebutuhan Bisnis Anda
-            </h1>
-
-            <p class="hero-description">
-                Kami membantu perusahaan dan UMKM membangun website, aplikasi,
-                dan sistem internal yang terstruktur, cepat, dan mudah dikembangkan.
-                Bukan sekadar tampilan menarik — tapi sistem yang benar-benar bekerja.
-            </p>
-
-            <div class="hero-buttons">
-                <a href="kontak.php" class="btn-primary">Diskusi Proyek</a>
-                <a href="portofolio.php" class="btn-outline">Lihat Hasil Kerja Kami</a>
-            </div>
-        </div>
-
-        <div class="hero-right reveal-right">
-            <div class="hero-stats">
-                <div class="stat-item">
-                    <h3>50+</h3>
-                    <p>Proyek Diselesaikan</p>
-                </div>
-                <div class="stat-item">
-                    <h3>Custom</h3>
-                    <p>Tanpa Template Massal</p>
-                </div>
-                <div class="stat-item">
-                    <h3>Support</h3>
-                    <p>After Project Assistance</p>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <!-- Wave -->
-    <div class="wave wave-1">
-        <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
-            <path fill="rgba(255,255,255,0.15)"
-                d="M0,160L80,176C160,192,320,224,480,218.7C640,213,800,171,960,144C1120,117,1280,107,1360,101.3L1440,96V320H0Z">
-            </path>
-        </svg>
-    </div>
-
-    <div class="wave wave-2">
-        <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
-            <path fill="#ffffff"
-                d="M0,224L80,213.3C160,203,320,181,480,186.7C640,192,800,224,960,229.3C1120,235,1280,213,1360,202.7L1440,192V320H0Z">
-            </path>
-        </svg>
     </div>
 </section>
 
 <!-- Preview Portofolio -->
-<section class="section backgroundd fade-in">
+<section id="portofolio" class="section backgroundd fade-in">
     <div class="container">
         <h2 class="section-title">Portofolio Terbaru</h2>
         <p class="section-subtitle">Beberapa proyek yang telah kami kerjakan</p>
@@ -180,7 +200,7 @@ include 'includes/header.php';
             </div>
         </div>
         <div style="text-align: center; margin-top: 2rem;">
-            <a href="portofolio.php" class="btn btn-primary">Lihat Semua Portofolio</a>
+            <a href="portofolio.php #portofolio" class="btn btn-primary">Lihat Semua Portofolio</a>
         </div>
     </div>
 </section>
@@ -237,19 +257,17 @@ include 'includes/header.php';
                 Gratis, tanpa komitmen, dan langsung bersama developer.
             </p>
             <div class="cta-trust">
-                <col> ✔ Respon cepat</col>
-                <col> ✔ Custom Development</col>
-                <col> ✔ Support After Launch</col>
+                <col> ✔ Fast Response</col>
+                <col> ✔ Custom Development</col><br>
+                <col> ✔ Clean and Modern Design</col>
+                <col> ✔ Long-Term Support</col>
             </div>
         </div>
 
         <!-- Right Content -->
         <div class="cta-right reveal-right">
-            <a href="kontak.php" class="cta-btn">Hubungi Kami Sekarang</a>
-
-
+            <a href="kontak.php #kontak" class="cta-btn">Hubungi Kami Sekarang</a>
         </div>
-
     </div>
 
     <!-- Wave Layer 1 (Transparan) -->

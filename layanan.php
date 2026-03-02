@@ -1,21 +1,34 @@
 <?php
 $pageTitle = 'Layanan - InoKrea Digital Studio';
 $metaDesc = 'Layanan pembuatan website, aplikasi custom, UI/UX design, dan desain grafis dari InoKrea.';
+$siteTitle = "Layanan Kami";
+$siteTagline = "Bangun, Kembangkan, dan Optimalkan Bisnis Anda Secara Digital.
+            InoKrea Digital Studio siap membantu Anda menciptakan website profesional dan solusi digital yang mendorong pertumbuhan nyata.";
 include 'includes/header.php';
 ?>
-<section class="hero-top">
-    <img src="assets/img/yy.jpg" class="hero-bg" alt="Hero Image">
+<section class="hero-modern">
 
-    <div class="hero-content">
-        <h1>Layanan Kami</h1>
-        <p class="hero-content">Bangun, Kembangkan, dan Optimalkan Bisnis Anda Secara Digital.<br>
-            InoKrea Digital Studio siap membantu Anda menciptakan <br>website profesional dan solusi digital yang mendorong pertumbuhan nyata.</p>
-        <br>
-        <a href="#konsultasi" class="hero-btn">Konsul</a>
+    <div class="container hero-grid fade-in">
+
+        <div class="hero-text">
+            <h1><?php echo $siteTitle; ?></h1>
+            <p><?php echo $siteTagline; ?></p>
+
+            <div class="hero-buttons">
+                <a href="kontak.php #kontak" class="btn-primary">Konsultasi Gratis</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="assets/img/aa.png" alt="Digital Service">
+        </div>
+
     </div>
+
 </section>
+
 <!-- Layanan Detail -->
-<section class="services-modern">
+<section id="layanan" class="services-modern">
     <div class="container">
 
         <div class="section-head fade-service">
@@ -108,7 +121,7 @@ include 'includes/header.php';
                     <li>Basic SEO Setup</li>
                     <li>Support 1 Bulan</li>
                 </ul>
-                <a href="#" class="btn-pricing">Konsultasi Sekarang</a>
+                <a href="kontak.php #kontak" class="btn-pricing">Konsultasi Sekarang</a>
             </div>
 
             <div class="pricing-card highlight fade-service delay-2">
@@ -126,7 +139,7 @@ include 'includes/header.php';
                     <li>Advanced SEO Setup</li>
                     <li>Support 3 Bulan</li>
                 </ul>
-                <a href="#" class="btn-pricing primary">Konsultasi Sekarang</a>
+                <a href="kontak.php #kontak" class="btn-pricing primary">Konsultasi Sekarang</a>
             </div>
 
             <div class="pricing-card fade-service delay-3">
@@ -143,7 +156,7 @@ include 'includes/header.php';
                     <li>Training Penggunaan</li>
                     <li>Support 3 Bulan</li>
                 </ul>
-                <a href="#" class="btn-pricing">Konsultasi Sekarang</a>
+                <a href="kontak.php #kontak" class="btn-pricing">Konsultasi Sekarang</a>
             </div>
 
         </div>

@@ -10,10 +10,9 @@
                 <a href="index.php" class="logo" style="color: white;">InoKrea<span style="color: var(--secondary);">.</span></a>
                 <p>Solusi digital terpercaya untuk perusahaan dan bisnis. Kami hadir untuk mewujudkan ide Anda menjadi produk digital berkualitas.</p>
                 <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/inokrea_studio/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@inokrea.studio"><i class="fab fa-tiktok"></i></a>
                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
                 </div>
             </div>
             <div class="footer-links">
@@ -41,15 +40,41 @@
                     <li>inokreastudio@gmail.com</li>
                 </ul>
             </div>
+<button id="scrollTopBtn">
+    <i class="fas fa-arrow-up"></i>
+</button>
         </div>
         <div class="copyright">
             &copy; <?php echo date('Y'); ?> InoKrea Digital Studio. All rights reserved.
         </div>
     </div>
+<a href="https://wa.me/628211327189?text=Halo%20InoKrea%20Digital%20Studio,%20saya%20ingin%20konsultasi" 
+   class="whatsapp-float" 
+   target="_blank">
+   <i class="fab fa-whatsapp"></i>
+</a>
 </footer>
 
 <!-- Custom JS -->
 <script src="assets/js/script.js"></script>
+<script>
+const scrollBtn = document.getElementById("scrollTopBtn");
+
+window.addEventListener("scroll", function(){
+    if(window.scrollY > 300){
+        scrollBtn.style.display = "block";
+    } else {
+        scrollBtn.style.display = "none";
+    }
+});
+
+scrollBtn.addEventListener("click", function(){
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
+</script>
 </body>
 
 </html>
