@@ -21,7 +21,7 @@ include 'includes/header.php';
         </div>
 
         <div class="hero-image">
-            <img src="assets/img/aa.png" alt="Digital Service">
+            <img src="assets/img/prt.png" alt="Digital Service">
         </div>
 
     </div>

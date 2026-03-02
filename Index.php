@@ -38,58 +38,58 @@ include 'includes/header.php';
     <br><br><br><br><br><br><br><br>
     <div class="hero-container">
 
-    <div class="hero-left reveal-left">
+        <div class="hero-left reveal-left">
 
-        <p class="hero-label">WEBSITE • SYSTEM • GRAPHIC DESIGN</p>
+            <p class="hero-label">WEBSITE • SYSTEM • GRAPHIC DESIGN</p>
 
-        <h1>
-            Solusi Website, Sistem Digital, 
-            dan Desain Kreatif untuk Bisnis Modern
-        </h1>
+            <h1>
+                Solusi Website, Sistem Digital,
+                dan Desain Kreatif untuk Bisnis Modern
+            </h1>
 
-        <p class="hero-description">
-            InoKrea Digital Studio membantu bisnis, UMKM, dan organisasi 
-            membangun website profesional, sistem aplikasi yang terstruktur, 
-            serta desain visual yang kuat untuk memperkuat identitas brand. 
-            Kami menggabungkan teknologi dan kreativitas untuk menciptakan 
-            solusi digital yang efektif dan mudah dikembangkan.
-        </p>
+            <p class="hero-description">
+                InoKrea Digital Studio membantu bisnis, UMKM, dan organisasi
+                membangun website profesional, sistem aplikasi yang terstruktur,
+                serta desain visual yang kuat untuk memperkuat identitas brand.
+                Kami menggabungkan teknologi dan kreativitas untuk menciptakan
+                solusi digital yang efektif dan mudah dikembangkan.
+            </p>
 
-        <div class="hero-buttons">
-            <a href="kontak.php #kontak" class="btn-primary">Diskusikan Proyek Anda</a>
-            <a href="#portofolio" class="btn-outline">Lihat Portofolio</a>
-        </div>
-
-    </div>
-
-    <div class="hero-right reveal-right">
-
-        <div class="hero-stats">
-
-            <div class="stat-item">
-                <h3>Website Development</h3>
-                <p>Website profesional untuk company profile, landing page, hingga e-commerce.</p>
-            </div>
-
-            <div class="stat-item">
-                <h3>Custom System</h3>
-                <p>Pembuatan aplikasi dan sistem digital yang disesuaikan dengan kebutuhan bisnis.</p>
-            </div>
-
-            <div class="stat-item">
-                <h3>Creative Design</h3>
-                <p>Desain grafis dan identitas visual untuk memperkuat brand bisnis Anda.</p>
+            <div class="hero-buttons">
+                <a href="kontak.php #kontak" class="btn-primary">Diskusikan Proyek Anda</a>
+                <a href="#portofolio" class="btn-outline">Lihat Portofolio</a>
             </div>
 
         </div>
 
-    </div>
+        <div class="hero-right reveal-right">
 
-</div>
-<br><br>
-    
-    
-        <!-- Wave -->
+            <div class="hero-stats">
+
+                <div class="stat-item">
+                    <h3>Website Development</h3>
+                    <p>Website profesional untuk company profile, landing page, hingga e-commerce.</p>
+                </div>
+
+                <div class="stat-item">
+                    <h3>Custom System</h3>
+                    <p>Pembuatan aplikasi dan sistem digital yang disesuaikan dengan kebutuhan bisnis.</p>
+                </div>
+
+                <div class="stat-item">
+                    <h3>Creative Design</h3>
+                    <p>Desain grafis dan identitas visual untuk memperkuat brand bisnis Anda.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <br><br>
+
+
+    <!-- Wave -->
     <div class="wave wave-1">
         <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
             <path fill="rgba(255,255,255,0.15)"
@@ -110,56 +110,32 @@ include 'includes/header.php';
 <!-- Ringkasan Layanan -->
 <section id="layanan" class="section layanan fade-in">
     <div class="container">
+        <h2 class="service-title">Layanan Kami</h2>
 
-        <h2 class="section-title">Layanan Utama Kami</h2>
-        <p class="section-subtitle">
-            Solusi digital terpadu untuk kebutuhan bisnis Anda
-        </p>
-
-        <div class="services-grid">
+        <div class="service-grid">
 
             <div class="service-card">
-                <div class="service-shape">WEB</div>
+                <div class="service-icon">
+                    <i class="fa-solid fa-globe"></i>
+                </div>
                 <h3>Pembuatan Website</h3>
-                <ul class="service-list">
-                    <li>Company Profile Website</li>
-                    <li>Landing Page Bisnis</li>
-                    <li>Website E-Commerce</li>
-                    <li>Desain Responsive (Mobile Friendly)</li>
-                </ul>
+                <p>Website profesional, cepat, dan responsif untuk bisnis Anda.</p>
             </div>
 
             <div class="service-card">
-                <div class="service-shape">APP</div>
+                <div class="service-icon">
+                    <i class="fa-solid fa-mobile-screen"></i>
+                </div>
                 <h3>Sistem Aplikasi Custom</h3>
-                <ul class="service-list">
-                    <li>Sistem Inventory</li>
-                    <li>CRM (Customer Management)</li>
-                    <li>Sistem Manajemen Data</li>
-                    <li>Dashboard Admin & Reporting</li>
-                </ul>
+                <p>Perbaikan cepat dan terpercaya untuk berbagai jenis smartphone.</p>
             </div>
 
             <div class="service-card">
-                <div class="service-shape">UI</div>
-                <h3>UI/UX Design</h3>
-                <ul class="service-list">
-                    <li>Desain Website Modern</li>
-                    <li>Prototype & Wireframe</li>
-                    <li>Mobile App Interface</li>
-                    <li>User Experience Optimization</li>
-                </ul>
-            </div>
-
-            <div class="service-card">
-                <div class="service-shape">DSGN</div>
+                <div class="service-icon">
+                    <i class="fa-solid fa-pen-nib"></i>
+                </div>
                 <h3>Desain Grafis</h3>
-                <ul class="service-list">
-                    <li>Logo & Branding</li>
-                    <li>Banner & Poster</li>
-                    <li>Desain Social Media</li>
-                    <li>Brosur & Materi Promosi</li>
-                </ul>
+                <p>Desain kreatif untuk kebutuhan branding digital Anda.</p>
             </div>
 
         </div>
@@ -167,13 +143,84 @@ include 'includes/header.php';
         <div style="text-align: center; margin-top: 2rem;">
             <a href="layanan.php #layanan" class="btn btn-primary">Lihat Semua Layanan</a>
         </div>
-
     </div>
-</section>
 
-<!-- Preview Portofolio -->
-<section id="portofolio" class="section backgroundd fade-in">
+<br><br><br><br><br>
     <div class="container">
+        <div class="pricing-header">
+            <h2>Paket Layanan Profesional</h2>
+            <p>Solusi digital terstruktur untuk website, sistem internal, dan desain visual brand.</p>
+        </div>
+
+        <!-- FILTER -->
+        <div class="pricing-filter-wrapper">
+            <div class="pricing-filter">
+                <button id="btn-regular" class="active">Layanan Utama</button>
+                <button id="btn-special">Special Bundle</button>
+            </div>
+        </div>
+
+        <!-- CARDS -->
+        <div class="pricing-grid">
+
+            <!-- WEBSITE -->
+            <div class="pricing-card regular fade-service delay-1">
+                <h3>Website Company Profile</h3>
+                <p class="price">Mulai dari <strong>Rp 3.500.000</strong></p>
+                <ul>
+                    <li>Desain Custom (No Template Massal)</li>
+                    <li>Responsive All Device</li>
+                    <li>SEO Basic Setup</li>
+                    <li>Free Maintenance 1 Bulan</li>
+                </ul>
+                <a href="kontak.php" class="btn-pricing">Konsultasi Proyek</a>
+            </div>
+
+            <!-- SISTEM -->
+            <div class="pricing-card regular fade-service delay-2">
+                <h3>Sistem / Aplikasi Internal</h3>
+                <p class="price">Mulai dari <strong>Rp 7.000.000</strong></p>
+                <ul>
+                    <li>Custom Workflow System</li>
+                    <li>Dashboard & Reporting</li>
+                    <li>Multi User Access</li>
+                    <li>Scalable Architecture</li>
+                </ul>
+                <a href="kontak.php" class="btn-pricing">Diskusi Kebutuhan</a>
+            </div>
+
+            <!-- DESIGN -->
+            <div class="pricing-card regular fade-service delay-4">
+                <h3>Desain Grafis Profesional</h3>
+                <p class="price">Mulai dari <strong>Rp 1.000.000</strong></p>
+                <ul>
+                    <li>Branding Visual</li>
+                    <li>Social Media Design</li>
+                    <li>Marketing Materials</li>
+                    <li>Revisi Terstruktur</li>
+                </ul>
+                <a href="kontak.php" class="btn-pricing">Mulai Proyek</a>
+            </div>
+
+            <!-- SPECIAL BUNDLE (DEFAULT HIDDEN) -->
+            <div class="pricing-card special hidden">
+                <span class="badge">Bundle Eksklusif</span>
+                <h3>Website + Logo Branding</h3>
+                <p class="price"><strong>Rp 4.500.000</strong></p>
+                <ul>
+                    <li>Website Company Profile</li>
+                    <li>Desain Logo Profesional</li>
+                    <li>Brand Color Guideline</li>
+                    <li>Support 2 Bulan</li>
+                </ul>
+                <a href="kontak.php" class="btn-pricing primary">Ambil Paket Ini</a>
+            </div>
+
+        </div>
+    </div>
+
+<br><br><br><br><br>
+    <div id="portofolio" class="container">
         <h2 class="section-title">Portofolio Terbaru</h2>
         <p class="section-subtitle">Beberapa proyek yang telah kami kerjakan</p>
         <div class="portfolio-preview-grid card">
@@ -203,10 +250,8 @@ include 'includes/header.php';
             <a href="portofolio.php #portofolio" class="btn btn-primary">Lihat Semua Portofolio</a>
         </div>
     </div>
-</section>
 
-<!-- Testimoni (Dummy) -->
-<section class="section backgroundd fade-in">
+    <br><br><br><br><br>
     <div class="container">
         <h2 class="section-title">Apa Kata Klien Kami</h2>
         <p class="section-subtitle">Mereka telah merasakan manfaat bekerja sama dengan InoKrea</p>
@@ -243,8 +288,8 @@ include 'includes/header.php';
             </div>
         </div>
     </div>
+<br><br><br>
 </section>
-
 <!-- CTA Akhir -->
 <section class="cta-section">
     <div class="container cta-flex">
@@ -301,6 +346,34 @@ include 'includes/header.php';
     });
 
     reveals.forEach(el => observer.observe(el));
+</script>
+
+<script>
+    const btnRegular = document.getElementById("btn-regular");
+    const btnSpecial = document.getElementById("btn-special");
+
+    const regularCards = document.querySelectorAll(".pricing-card.regular");
+    const specialCards = document.querySelectorAll(".pricing-card.special");
+
+    btnRegular.addEventListener("click", function() {
+
+        btnRegular.classList.add("active");
+        btnSpecial.classList.remove("active");
+
+        regularCards.forEach(card => card.classList.remove("hidden"));
+        specialCards.forEach(card => card.classList.add("hidden"));
+
+    });
+
+    btnSpecial.addEventListener("click", function() {
+
+        btnSpecial.classList.add("active");
+        btnRegular.classList.remove("active");
+
+        regularCards.forEach(card => card.classList.add("hidden"));
+        specialCards.forEach(card => card.classList.remove("hidden"));
+
+    });
 </script>
 
 <?php include 'includes/footer.php'; ?>
