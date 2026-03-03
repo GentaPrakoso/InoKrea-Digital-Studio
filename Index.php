@@ -24,7 +24,7 @@ include 'includes/header.php';
         </div>
 
         <div class="hero-image">
-            <img src="assets/img/aa.png" alt="Digital Service">
+            <img src="assets/img/vctr.png" alt="Digital Service">
         </div>
 
     </div>
@@ -223,28 +223,28 @@ include 'includes/header.php';
 
 <section class="layanan">
     <div id="portofolio" class="container fade-in">
-        <h2 class="section-title">Portofolio Terbaru</h2>
-        <p class="section-subtitle">Beberapa proyek yang telah kami kerjakan</p>
+        <h2 class="section-title">Portofolio</h2>
+        <p class="section-subtitle">Kategori utama proyek yang menjadi fokus pengembangan kami.</p>
         <div class="portfolio-preview-grid card">
             <div class="portfolio-item">
                 <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="Website Company">
                 <div class="portfolio-overlay">
-                    <h4>Website Perusahaan</h4>
-                    <p>PT Maju Jaya</p>
+                    <h4>Website</h4>
+                    <p></p>
                 </div>
             </div>
             <div class="portfolio-item">
                 <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1074&q=80" alt="Aplikasi Custom">
                 <div class="portfolio-overlay">
-                    <h4>Sistem Inventory</h4>
-                    <p>CV Berkah Abadi</p>
+                    <h4>Sistem Aplikasi</h4>
+                    <p></p>
                 </div>
             </div>
             <div class="portfolio-item">
                 <img src="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="Desain Grafis">
                 <div class="portfolio-overlay">
-                    <h4>Branding & Logo</h4>
-                    <p>Kafe Kopi Nusantara</p>
+                    <h4>Desain Grafis</h4>
+                    <p></p>
                 </div>
             </div>
         </div>

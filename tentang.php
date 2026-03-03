@@ -36,14 +36,14 @@ include 'includes/header.php';
 
         <div class="about-text">
             <p>
-                Sejak 2020, InoKrea Digital Studio berfokus membantu bisnis
-                bertumbuh melalui pengembangan website, aplikasi, dan solusi
-                visual yang terarah dan terukur.
+                Kami adalah agensi kreatif yang berdiri pada Januari 2026,
+                dibentuk oleh tim yang beranggotakan 4 orang kreatif Berbekal latar
+                belakang teknologi dan kreativitas, kami hadir untuk membantu brand,
+                bisnis, dan individu dalam membangun identitas digital yang kuat dan
+                relevan.
             </p>
             <p>
-                Kami percaya bahwa teknologi bukan hanya tentang sistem,
-                tetapi tentang bagaimana solusi tersebut memberikan dampak
-                nyata bagi pertumbuhan perusahaan.
+                Fokus utama kami adalah desain grafis serta pengembangan website dan sistem digital dengan pendekatan yang mengutamakan fungsionalitas, estetika, dan kebutuhan klien. Kami menghadirkan solusi yang tidak hanya menarik secara visual, tetapi juga strategis, responsif, aman, dan mudah digunakan. Setiap desain, website, dan sistem yang kami kembangkan dirancang untuk menyampaikan pesan secara efektif, meningkatkan efisiensi operasional, serta memberikan dampak nyata bagi pertumbuhan bisnis.
             </p>
         </div>
     </div>

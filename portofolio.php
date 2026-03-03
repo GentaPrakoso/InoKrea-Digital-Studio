@@ -44,12 +44,13 @@ include 'includes/header.php';
 
             <!-- CARD 1 -->
             <div class="portfolio-card" data-category="website">
-                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1170&q=80">
+                <img src="assets/img/1.png">
                 <div class="portfolio-info">
-                    <h4>Website PT Maju Jaya</h4>
-                    <p>Website company profile dengan desain modern dan animasi halus.</p>
+                    <h4>Website PT Karya Bihar Mandiri</h4>
+                    <p></p>
                     <button class="btn-detail"
-                        data-desc="Website company profile dengan desain modern, animasi halus, dan fitur manajemen konten. Dibangun dengan React dan Node.js."
+                        data-desc="Website company profile profesional dengan desain responsif untuk menampilkan profil perusahaan dan layanan secara jelas serta meningkatkan kredibilitas digital."
+                        data-images="assets/img/1.png|assets/img/2.png|assets/img/3.png"
                         onclick="showDetail(this)">
                         Lihat Detail
                     </button>
@@ -57,13 +58,70 @@ include 'includes/header.php';
             </div>
 
             <!-- CARD 2 -->
-            <div class="portfolio-card" data-category="sistem">
-                <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=1074&q=80">
+            <div class="portfolio-card" data-category="website">
+                <img src="assets/img/20.png">
                 <div class="portfolio-info">
-                    <h4>Sistem Inventory CV Berkah</h4>
-                    <p>Aplikasi manajemen stok dan penjualan berbasis web.</p>
+                    <h4>Website PT Modern Aulia Mandiri</h4>
+                    <p></p>
                     <button class="btn-detail"
-                        data-desc="Aplikasi berbasis web untuk manajemen stok, pembelian, penjualan, dan laporan. Menggunakan Laravel dan MySQL."
+                        data-desc="Website perusahaan modern dan elegan yang dirancang untuk memperkuat branding serta menyajikan informasi layanan secara terstruktur dan terpercaya."
+                        data-images="assets/img/20.png|assets/img/18.png|assets/img/19.png"
+                        onclick="showDetail(this)">
+                        Lihat Detail
+                    </button>
+                </div>
+            </div>
+
+                        <div class="portfolio-card" data-category="desain">
+                <img src="assets/img/9.png">
+                <div class="portfolio-info">
+                    <h4>Logo</h4>
+                    <p></p>
+                    <button class="btn-detail"
+                        data-desc=""
+                        data-images="assets/img/9.png|assets/img/4.png|assets/img/5.png|assets/img/6.png|assets/img/7.png|assets/img/8.png"
+                        onclick="showDetail(this)">
+                        Lihat Detail
+                    </button>
+                </div>
+            </div>
+
+            <div class="portfolio-card" data-category="desain">
+                <img src="assets/img/12.png">
+                <div class="portfolio-info">
+                    <h4>Banner</h4>
+                    <p></p>
+                    <button class="btn-detail"
+                        data-desc=""
+                        data-images="assets/img/12.png|assets/img/11.png|assets/img/13.png"
+                        onclick="showDetail(this)">
+                        Lihat Detail
+                    </button>
+                </div>
+            </div>
+
+            <div class="portfolio-card" data-category="desain">
+                <img src="assets/img/16.png">
+                <div class="portfolio-info">
+                    <h4>Catalog</h4>
+                    <p></p>
+                    <button class="btn-detail"
+                        data-desc=""
+                        data-images="assets/img/16.png|assets/img/17.png"
+                        onclick="showDetail(this)">
+                        Lihat Detail
+                    </button>
+                </div>
+            </div>
+
+            <div class="portfolio-card" data-category="desain">
+                <img src="assets/img/14.png">
+                <div class="portfolio-info">
+                    <h4>Catalog</h4>
+                    <p></p>
+                    <button class="btn-detail"
+                        data-desc=""
+                        data-images="assets/img/14.png|assets/img/15.png"
                         onclick="showDetail(this)">
                         Lihat Detail
                     </button>
@@ -80,6 +138,9 @@ include 'includes/header.php';
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
 
+        <button class="modal-prev" onclick="prevImage()">‹</button>
+        <button class="modal-next" onclick="nextImage()">›</button>
+
         <img id="modalImage" class="modal-image" src="">
         <h3 id="modalTitle"></h3>
         <p id="modalDesc"></p>
@@ -87,31 +148,39 @@ include 'includes/header.php';
 </div>
 
 <script>
-    function showDetail(button) {
+let currentImages = [];
+let currentIndex = 0;
+
+function showDetail(button) {
     const card = button.closest(".portfolio-card");
 
     const title = card.querySelector("h4").innerText;
-    const image = card.querySelector("img").src;
     const desc = button.getAttribute("data-desc");
+    const images = button.getAttribute("data-images");
+
+    currentImages = images.split("|");
+    currentIndex = 0;
 
     document.getElementById("modalTitle").innerText = title;
     document.getElementById("modalDesc").innerText = desc;
-    document.getElementById("modalImage").src = image;
+    document.getElementById("modalImage").src = currentImages[currentIndex];
 
     document.getElementById("detailModal").style.display = "flex";
+}
+
+function nextImage() {
+    currentIndex = (currentIndex + 1) % currentImages.length;
+    document.getElementById("modalImage").src = currentImages[currentIndex];
+}
+
+function prevImage() {
+    currentIndex = (currentIndex - 1 + currentImages.length) % currentImages.length;
+    document.getElementById("modalImage").src = currentImages[currentIndex];
 }
 
 function closeModal() {
     document.getElementById("detailModal").style.display = "none";
 }
-
-/* Optional: klik area luar modal untuk close */
-window.onclick = function(e) {
-    const modal = document.getElementById("detailModal");
-    if (e.target === modal) {
-        modal.style.display = "none";
-    }
-};
 </script>
 
 <?php include 'includes/footer.php'; ?>

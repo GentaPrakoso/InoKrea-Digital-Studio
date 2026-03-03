@@ -69,45 +69,13 @@ include 'includes/header.php';
                     <i class="fab fa-whatsapp"></i> Chat WhatsApp
                 </a>
 
-                <div class="contact-map">
-                    <iframe
-                        src="https://www.google.com/maps?q=-6.825368,107.285614&output=embed"
-                        loading="lazy">
-                    </iframe>
-                </div>
-
             </div>
-
-
-            <!-- Contact Form -->
-            <div class="contact-form contact-fade delay-3">
-
-                <form id="contactForm">
-
-                    <div class="form-group">
-                        <input type="text" placeholder="Nama Lengkap" required>
-                    </div>
-
-                    <div class="form-group">
-                        <input type="email" placeholder="Email" required>
-                    </div>
-
-                    <div class="form-group">
-                        <input type="text" placeholder="Subjek">
-                    </div>
-
-                    <div class="form-group">
-                        <textarea placeholder="Pesan Anda..." required></textarea>
-                    </div>
-
-                    <button type="submit" class="contact-btn">
-                        Kirim Pesan
-                    </button>
-
-                </form>
-
+            <div class="contact-map fade-in delay-3">
+                <iframe
+                    src="https://www.google.com/maps?q=-6.825368,107.285614&output=embed"
+                    loading="lazy">
+                </iframe>
             </div>
-
         </div>
     </div>
 </section>

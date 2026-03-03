@@ -31,13 +31,16 @@ $current_page = basename($_SERVER['PHP_SELF']);
     <link rel="stylesheet" href="assets/css/style.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet">
+
+    <link href="assets/img/logo_ck.png" rel="icon">
+    <link href="assets/img/masonry-portfolio/logo-4.png" rel="apple-touch-icon">
 </head>
 
 <body>
     <!-- Sticky Navbar -->
     <nav class="navbar">
         <div class="container">
-            <a href="index.php" class="logo">InoKrea<span>.</span></a>
+            <a href="index.php" class="logo">InoKrea Digital Studio<span>.</span></a>
             <ul class="nav-menu" id="navMenu">
                 <li><a href="index.php" class="<?php echo ($current_page == 'index.php') ? 'active' : ''; ?>">Beranda</a></li>
                 <li><a href="tentang.php" class="<?php echo ($current_page == 'tentang.php') ? 'active' : ''; ?>">Tentang</a></li>
@@ -54,6 +57,15 @@ window.addEventListener("scroll", function () {
     navbar.classList.toggle("scrolled", window.scrollY > 50);
 });
 </script>
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "PT. Modern Aulia Mandiri",
+            "url": "https://modernauliamandiri.id",
+            "logo": "https://modernauliamandiri.id/assets/img/masonry-portfolio/logo-4.png"
+        }
+    </script>
         </div>
     </nav>
     <main>

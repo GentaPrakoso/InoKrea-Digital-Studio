@@ -65,19 +65,6 @@ include 'includes/header.php';
                 </ul>
             </div>
 
-            <div class="service-card fade-service delay-3">
-                <div class="icon-wrap">
-                    <i class="fas fa-pencil-ruler"></i>
-                </div>
-                <h3>UI/UX Design</h3>
-                <ul class="service-list">
-                    <li>Riset & User Journey</li>
-                    <li>Wireframe & Prototyping</li>
-                    <li>Desain Interface Modern</li>
-                    <li>Testing & Improvement</li>
-                </ul>
-            </div>
-
             <div class="service-card fade-service delay-4">
                 <div class="icon-wrap">
                     <i class="fas fa-palette"></i>
