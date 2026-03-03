@@ -24,7 +24,7 @@
                 </ul>
             </div>
             <div class="footer-links">
-                <h4>Perusahaan</h4>
+                <h4>Tentang</h4>
                 <ul>
                     <li><a href="tentang.php">Tentang Kami</a></li>
                     <li><a href="portofolio.php">Portofolio</a></li>

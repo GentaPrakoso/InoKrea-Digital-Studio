@@ -167,54 +167,62 @@ include 'includes/header.php';
             <!-- WEBSITE -->
             <div class="pricing-card regular fade-service delay-1">
                 <h3>Website Company Profile</h3>
-                <p class="price">Mulai dari <strong>Rp 3.500.000</strong></p>
+                <p class="price">Mulai dari <strong>Rp 1.500.000</strong></p>
+                <p class="price-note">CMS / Manual menyesuaikan kebutuhan</p>
                 <ul>
-                    <li>Desain Custom (No Template Massal)</li>
+                    <li>Custom Design (No Template Massal)</li>
                     <li>Responsive All Device</li>
                     <li>SEO Basic Setup</li>
                     <li>Free Maintenance 1 Bulan</li>
+                    <li>Hosting 1 Tahun</li>
                 </ul>
-                <a href="kontak.php" class="btn-pricing">Konsultasi Proyek</a>
+                <a href="kontak.php" class="btn-pricing">Konsultasi Sekarang</a>
             </div>
 
-            <!-- SISTEM -->
+            <!-- LANDING PAGE -->
             <div class="pricing-card regular fade-service delay-2">
-                <h3>Sistem / Aplikasi Internal</h3>
-                <p class="price">Mulai dari <strong>Rp 7.000.000</strong></p>
+                <h3>Landing Page / HPP</h3>
+                <p class="price">Mulai dari <strong>Rp 800.000</strong></p>
+                <p class="price-note">CMS / Manual menyesuaikan kebutuhan</p>
                 <ul>
-                    <li>Custom Workflow System</li>
-                    <li>Dashboard & Reporting</li>
-                    <li>Multi User Access</li>
-                    <li>Scalable Architecture</li>
+                    <li>Single Page Custom Design</li>
+                    <li>Responsive Layout</li>
+                    <li>Basic SEO Setup</li>
+                    <li>Hosting 1 Tahun</li>
+                    <li>Penambahan Section Rp 200.000</li>
                 </ul>
-                <a href="kontak.php" class="btn-pricing">Diskusi Kebutuhan</a>
+                <a href="kontak.php" class="btn-pricing">Konsultasi Sekarang</a>
             </div>
 
             <!-- DESIGN -->
-            <div class="pricing-card regular fade-service delay-4">
-                <h3>Desain Grafis Profesional</h3>
-                <p class="price">Mulai dari <strong>Rp 1.000.000</strong></p>
+            <div class="pricing-card regular fade-service delay-3">
+                <h3>Desain Grafis</h3>
+                <p class="price">Mulai dari <strong>Rp 100.000</strong></p>
                 <ul>
-                    <li>Branding Visual</li>
-                    <li>Social Media Design</li>
-                    <li>Marketing Materials</li>
-                    <li>Revisi Terstruktur</li>
+                    <li>Desain Banner / Promosi</li>
+                    <li>Social Media Post</li>
+                    <li>Revisi Minor Sesuai Brief</li>
+                    <li>File Siap Cetak / Digital</li>
                 </ul>
-                <a href="kontak.php" class="btn-pricing">Mulai Proyek</a>
+                <a href="kontak.php" class="btn-pricing">Konsultasi Sekarang
+                </a>
             </div>
 
             <!-- SPECIAL BUNDLE (DEFAULT HIDDEN) -->
             <div class="pricing-card special hidden">
-                <span class="badge">Bundle Eksklusif</span>
-                <h3>Website + Logo Branding</h3>
-                <p class="price"><strong>Rp 4.500.000</strong></p>
+                <span class="badge">Premium Package</span>
+                <h3>Corporate Branding & Website Package</h3>
+                <p class="price"><strong>Rp 5.899.000</strong></p>
+                <p class="price-note">Solusi lengkap untuk membangun identitas dan kehadiran digital profesional</p>
                 <ul>
-                    <li>Website Company Profile</li>
-                    <li>Desain Logo Profesional</li>
-                    <li>Brand Color Guideline</li>
-                    <li>Support 2 Bulan</li>
+                    <li>Website Company Profile Custom (Max 7 Halaman)</li>
+                    <li>Desain Logo Profesional (3 Konsep + Revisi Terstruktur)</li>
+                    <li>Mini Brand Guideline (Logo Usage, Color & Typography)</li>
+                    <li>5x Desain Social Media / Banner Promosi</li>
+                    <li>SEO Basic Setup</li>
+                    <li>Free Maintenance 2 Bulan</li>
                 </ul>
-                <a href="kontak.php" class="btn-pricing primary">Ambil Paket Ini</a>
+                <a href="kontak.php" class="btn-pricing primary">Diskusi Sekarang</a>
             </div>
 
         </div>
@@ -255,7 +263,7 @@ include 'includes/header.php';
 </section>
 
 <section class="layanan">
-    <div class="container">
+    <div class="container fade-in">
         <h2 class="section-title">Apa Kata Klien Kami</h2>
         <p class="section-subtitle">
             Kepercayaan klien adalah fondasi pertumbuhan kami
@@ -264,43 +272,39 @@ include 'includes/header.php';
         <div class="testimonials-grid">
 
             <div class="testimonial-card">
-                <div class="quote-mark">“</div>
                 <p class="testimonial-text">
-                    Tim InoKrea sangat profesional dan responsif. Website perusahaan kami
-                    selesai tepat waktu dan sesuai ekspektasi.
+                    ''Website PT KBM kini tampil lebih profesional dan rapi. Prosesnya cepat,
+                    komunikatif, dan hasilnya sesuai harapan kami.''
                 </p>
                 <div class="testimonial-footer">
-                    <h5>Budi Santoso</h5>
-                    <span>Direktur • PT Maju Jaya</span>
+                    <h5>Idris Maulana</h5>
+                    <span>Direktur • PT Karya Bihar Mandiri</span>
                 </div>
             </div>
 
             <div class="testimonial-card">
-                <div class="quote-mark">“</div>
                 <p class="testimonial-text">
-                    Desain yang diberikan modern dan selaras dengan brand kami.
-                    Proses revisi cepat dan komunikatif.
+                    ''Tampilan website PT MAM sekarang jauh lebih modern dan kredibel.
+                    Kami puas dengan hasil dan cara kerjanya yang responsif.''
                 </p>
                 <div class="testimonial-footer">
-                    <h5>Siti Aminah</h5>
-                    <span>Owner • Kafe Kopi Nusantara</span>
+                    <h5>Imran Husain</h5>
+                    <span>Direktur • PT Modern Aulia Mandiri</span>
                 </div>
             </div>
 
             <div class="testimonial-card">
-                <div class="quote-mark">“</div>
                 <p class="testimonial-text">
-                    Aplikasi inventory custom yang dibuat sangat membantu operasional
-                    kami. Fitur tepat guna dan dukungan teknisnya responsif.
+                    “Desainnya rapi, jelas, dan terlihat profesional. Kami sangat puas dengan hasil akhirnya.”
                 </p>
                 <div class="testimonial-footer">
-                    <h5>Agus Wijaya</h5>
-                    <span>Manager • CV Berkah Abadi</span>
+                    <h5>Muhammad Arrosyidu</h5>
+                    <span>Wakil Biro • SADAYA</span>
                 </div>
             </div>
 
         </div>
-</div>
+    </div>
     <br><br><br>
 </section>
 <!-- CTA Akhir -->

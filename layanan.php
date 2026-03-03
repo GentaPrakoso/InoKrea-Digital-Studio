@@ -94,62 +94,83 @@ include 'includes/header.php';
 
         <div class="pricing-grid">
 
-            <div class="pricing-card fade-service delay-1">
-                <h3>Website Starter</h3>
-                <div class="price">
-                    <span class="start">Mulai dari</span>
-                    <strong>Rp 2.500.000</strong>
-                </div>
-                <ul class="pricing-list">
-                    <li>1–5 Halaman</li>
-                    <li>Desain Responsif</li>
-                    <li>Free Domain 1 Tahun</li>
+            <!-- WEBSITE -->
+            <div class="pricing-card regular fade-service delay-1">
+                <h3>Website Company Profile</h3>
+                <p class="price">Mulai dari <strong>Rp 1.500.000</strong></p>
+                <p class="price-note">CMS / Manual menyesuaikan kebutuhan</p>
+                <ul>
+                    <li>Custom Design (No Template Massal)</li>
+                    <li>Responsive All Device</li>
+                    <li>SEO Basic Setup</li>
+                    <li>Free Maintenance 1 Bulan</li>
                     <li>Hosting 1 Tahun</li>
+                </ul>
+                <a href="kontak.php" class="btn-pricing">Konsultasi Sekarang</a>
+            </div>
+
+            <!-- LANDING PAGE -->
+            <div class="pricing-card regular fade-service delay-2">
+                <h3>Landing Page / HPP</h3>
+                <p class="price">Mulai dari <strong>Rp 800.000</strong></p>
+                <p class="price-note">CMS / Manual menyesuaikan kebutuhan</p>
+                <ul>
+                    <li>Single Page Custom Design</li>
+                    <li>Responsive Layout</li>
                     <li>Basic SEO Setup</li>
-                    <li>Support 1 Bulan</li>
+                    <li>Hosting 1 Tahun</li>
+                    <li>Penambahan Section Rp 200.000</li>
                 </ul>
-                <a href="kontak.php #kontak" class="btn-pricing">Konsultasi Sekarang</a>
+                <a href="kontak.php" class="btn-pricing">Konsultasi Sekarang</a>
             </div>
 
-            <div class="pricing-card highlight fade-service delay-2">
-                <span class="badge">Paling Laris</span>
-                <h3>Website Business</h3>
-                <div class="price">
-                    <span class="start">Mulai dari</span>
-                    <strong>Rp 5.000.000</strong>
-                </div>
-                <ul class="pricing-list">
-                    <li>Up to 10 Halaman</li>
-                    <li>Custom Design Premium</li>
-                    <li>CMS Admin Panel</li>
-                    <li>Optimasi Kecepatan</li>
-                    <li>Advanced SEO Setup</li>
-                    <li>Support 3 Bulan</li>
+            <!-- DESIGN -->
+            <div class="pricing-card regular fade-service delay-3">
+                <h3>Desain Grafis</h3>
+                <p class="price">Mulai dari <strong>Rp 100.000</strong></p>
+                <ul>
+                    <li>Desain Banner / Promosi</li>
+                    <li>Social Media Post</li>
+                    <li>Revisi Minor Sesuai Brief</li>
+                    <li>File Siap Cetak / Digital</li>
                 </ul>
-                <a href="kontak.php #kontak" class="btn-pricing primary">Konsultasi Sekarang</a>
-            </div>
-
-            <div class="pricing-card fade-service delay-3">
-                <h3>E-Commerce UMKM</h3>
-                <div class="price">
-                    <span class="start">Mulai dari</span>
-                    <strong>Rp 6.500.000</strong>
-                </div>
-                <ul class="pricing-list">
-                    <li>Fitur Keranjang & Checkout</li>
-                    <li>Integrasi Payment Gateway</li>
-                    <li>Manajemen Produk</li>
-                    <li>Dashboard Pesanan</li>
-                    <li>Training Penggunaan</li>
-                    <li>Support 3 Bulan</li>
-                </ul>
-                <a href="kontak.php #kontak" class="btn-pricing">Konsultasi Sekarang</a>
+                <a href="kontak.php" class="btn-pricing">Konsultasi Sekarang
+                </a>
             </div>
 
         </div>
 
-        <div class="pricing-note fade-service delay-4">
-            <p>* Harga dapat menyesuaikan kebutuhan khusus. Tersedia opsi cicilan 2x tanpa bunga.</p>
+    </div>
+</section>
+
+<section class="pricing-umkm">
+    <div class="container">
+
+        <div class="section-head fade-service">
+            <span class="section-tag">Exclusive Package</span>
+            <h2>Bangun Brand & Website Sekaligus</h2>
+            <p>Paket spesial untuk perusahaan yang ingin tampil profesional sejak awal dengan strategi branding dan website yang selaras.</p>
+        </div>
+
+        <div class="pricing-grid">
+
+            <!-- WEBSITE -->
+            <div class="pricing-card special">
+                <span class="badge">Premium Package</span>
+                <h3>Corporate Branding & Website Package</h3>
+                <p class="price"><strong>Rp 5.899.000</strong></p>
+                <p class="price-note">Solusi lengkap untuk membangun identitas dan kehadiran digital profesional</p>
+                <ul>
+                    <li>Website Company Profile Custom (Max 7 Halaman)</li>
+                    <li>Desain Logo Profesional (3 Konsep + Revisi Terstruktur)</li>
+                    <li>Mini Brand Guideline (Logo Usage, Color & Typography)</li>
+                    <li>5x Desain Social Media / Banner Promosi</li>
+                    <li>SEO Basic Setup</li>
+                    <li>Free Maintenance 2 Bulan</li>
+                </ul>
+                <a href="kontak.php" class="btn-pricing primary">Diskusi Sekarang</a>
+            </div>
+
         </div>
 
     </div>
