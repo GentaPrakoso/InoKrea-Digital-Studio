@@ -124,10 +124,10 @@ include 'includes/header.php';
 
             <div class="service-card">
                 <div class="service-icon">
-                    <i class="fa-solid fa-mobile-screen"></i>
+                    <i class="fa-solid fa-desktop"></i>
                 </div>
-                <h3>Sistem Aplikasi Custom</h3>
-                <p>Perbaikan cepat dan terpercaya untuk berbagai jenis smartphone.</p>
+                <h3>Web Sistem Custom</h3>
+                <p>Sistem berbasis web yang dirancang sesuai kebutuhan bisnis Anda.</p>
             </div>
 
             <div class="service-card">
@@ -206,6 +206,20 @@ include 'includes/header.php';
                 </ul>
                 <a href="kontak.php" class="btn-pricing">Konsultasi Sekarang
                 </a>
+            </div>
+
+             <!-- Sistem -->
+            <div class="pricing-card regular fade-service delay-3">
+                <h3>Web Sistem Custom</h3>
+                <p class="price">Mulai dari <strong>Rp 3.500.000</strong></p>
+                <ul>
+                    <li>Sistem Login & Hak Akses Dasar</li>
+                    <li>Dashboard & Manajemen Data (CRUD)</li>
+                    <li>Desain Responsive</li>
+                    <li>Revisi Minor Sesuai Brief</li>
+                    <li>Deploy ke Hosting</li>
+                </ul>
+                <a href="kontak.php" class="btn-pricing">Konsultasi Sekarang</a>
             </div>
 
             <!-- SPECIAL BUNDLE (DEFAULT HIDDEN) -->

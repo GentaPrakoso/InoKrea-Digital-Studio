@@ -138,6 +138,20 @@ include 'includes/header.php';
                 </a>
             </div>
 
+            <!-- Sistem -->
+            <div class="pricing-card regular fade-service delay-3">
+                <h3>Web Sistem Custom</h3>
+                <p class="price">Mulai dari <strong>Rp 3.500.000</strong></p>
+                <ul>
+                    <li>Sistem Login & Hak Akses Dasar</li>
+                    <li>Dashboard & Manajemen Data (CRUD)</li>
+                    <li>Desain Responsive</li>
+                    <li>Revisi Minor Sesuai Brief</li>
+                    <li>Deploy ke Hosting</li>
+                </ul>
+                <a href="kontak.php" class="btn-pricing">Konsultasi Sekarang</a>
+            </div>
+
         </div>
 
     </div>
