@@ -108,8 +108,8 @@ include 'includes/header.php';
 </section>
 
 <!-- Ringkasan Layanan -->
-<section id="layanan" class="section layanan fade-in">
-    <div class="container">
+<section id="layanan" class="section layanan2">
+    <div class="container fade-in">
         <h2 class="service-title">Layanan Kami</h2>
 
         <div class="service-grid">
@@ -144,9 +144,10 @@ include 'includes/header.php';
             <a href="layanan.php #layanan" class="btn btn-primary">Lihat Semua Layanan</a>
         </div>
     </div>
+</section>
 
-<br><br><br><br><br>
-    <div class="container">
+<section class="layanan">
+    <div class="container fade-in">
         <div class="pricing-header">
             <h2>Paket Layanan Profesional</h2>
             <p>Solusi digital terstruktur untuk website, sistem internal, dan desain visual brand.</p>
@@ -218,9 +219,10 @@ include 'includes/header.php';
 
         </div>
     </div>
+</section>
 
-<br><br><br><br><br>
-    <div id="portofolio" class="container">
+<section class="layanan">
+    <div id="portofolio" class="container fade-in">
         <h2 class="section-title">Portofolio Terbaru</h2>
         <p class="section-subtitle">Beberapa proyek yang telah kami kerjakan</p>
         <div class="portfolio-preview-grid card">
@@ -250,45 +252,56 @@ include 'includes/header.php';
             <a href="portofolio.php #portofolio" class="btn btn-primary">Lihat Semua Portofolio</a>
         </div>
     </div>
+</section>
 
-    <br><br><br><br><br>
+<section class="layanan">
     <div class="container">
         <h2 class="section-title">Apa Kata Klien Kami</h2>
-        <p class="section-subtitle">Mereka telah merasakan manfaat bekerja sama dengan InoKrea</p>
+        <p class="section-subtitle">
+            Kepercayaan klien adalah fondasi pertumbuhan kami
+        </p>
+
         <div class="testimonials-grid">
-            <div class="testimonial-card card">
-                <p>"Tim InoKrea sangat profesional dan responsif. Website perusahaan kami selesai tepat waktu dan sesuai keinginan. Terima kasih!"</p>
-                <div class="testimonial-author">
-                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="User">
-                    <div class="author-info">
-                        <h5>Budi Santoso</h5>
-                        <span>Direktur PT Maju Jaya</span>
-                    </div>
+
+            <div class="testimonial-card">
+                <div class="quote-mark">“</div>
+                <p class="testimonial-text">
+                    Tim InoKrea sangat profesional dan responsif. Website perusahaan kami
+                    selesai tepat waktu dan sesuai ekspektasi.
+                </p>
+                <div class="testimonial-footer">
+                    <h5>Budi Santoso</h5>
+                    <span>Direktur • PT Maju Jaya</span>
                 </div>
             </div>
-            <div class="testimonial-card card">
-                <p>"Desain yang diberikan sangat modern dan sesuai dengan brand kami. Proses revisi cepat dan hasilnya memuaskan. Recommended!"</p>
-                <div class="testimonial-author">
-                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="User">
-                    <div class="author-info">
-                        <h5>Siti Aminah</h5>
-                        <span>Owner Kafe Kopi Nusantara</span>
-                    </div>
+
+            <div class="testimonial-card">
+                <div class="quote-mark">“</div>
+                <p class="testimonial-text">
+                    Desain yang diberikan modern dan selaras dengan brand kami.
+                    Proses revisi cepat dan komunikatif.
+                </p>
+                <div class="testimonial-footer">
+                    <h5>Siti Aminah</h5>
+                    <span>Owner • Kafe Kopi Nusantara</span>
                 </div>
             </div>
-            <div class="testimonial-card card">
-                <p>"Aplikasi inventory custom dari InoKrea sangat membantu operasional kami. Fitur sesuai kebutuhan dan dukungan teknisnya cepat."</p>
-                <div class="testimonial-author">
-                    <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="User">
-                    <div class="author-info">
-                        <h5>Agus Wijaya</h5>
-                        <span>Manager CV Berkah Abadi</span>
-                    </div>
+
+            <div class="testimonial-card">
+                <div class="quote-mark">“</div>
+                <p class="testimonial-text">
+                    Aplikasi inventory custom yang dibuat sangat membantu operasional
+                    kami. Fitur tepat guna dan dukungan teknisnya responsif.
+                </p>
+                <div class="testimonial-footer">
+                    <h5>Agus Wijaya</h5>
+                    <span>Manager • CV Berkah Abadi</span>
                 </div>
             </div>
+
         </div>
-    </div>
-<br><br><br>
+</div>
+    <br><br><br>
 </section>
 <!-- CTA Akhir -->
 <section class="cta-section">

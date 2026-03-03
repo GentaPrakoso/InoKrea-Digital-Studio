@@ -77,12 +77,13 @@ include 'includes/header.php';
                     <i class="fas fa-bullseye"></i>
                 </div>
                 <h3>Misi</h3>
-                <ul>
+                <p>
                     <li>Solusi digital berkualitas tinggi</li>
                     <li>Proyek tepat waktu dan terukur</li>
                     <li>Relasi jangka panjang dengan klien</li>
                     <li>Tim profesional dan adaptif</li>
-                </ul>
+                </p>
+
                 <div class="accent-line"></div>
             </div>
 

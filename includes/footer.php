@@ -12,7 +12,7 @@
                 <div class="social-links">
                     <a href="https://www.instagram.com/inokrea_studio/"><i class="fab fa-instagram"></i></a>
                     <a href="https://www.tiktok.com/@inokrea.studio"><i class="fab fa-tiktok"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.linkedin.com/in/inokrea-studio-1107783b4/"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
             <div class="footer-links">
@@ -20,7 +20,6 @@
                 <ul>
                     <li><a href="layanan.php">Pembuatan Website</a></li>
                     <li><a href="layanan.php">Sistem Aplikasi Custom</a></li>
-                    <li><a href="layanan.php">UI/UX Design</a></li>
                     <li><a href="layanan.php">Desain Grafis</a></li>
                 </ul>
             </div>
