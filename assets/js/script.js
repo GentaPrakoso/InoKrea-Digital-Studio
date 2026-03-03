@@ -49,28 +49,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Modal detail proyek
-    window.showDetail = function (title, desc) {
-        const modal = document.getElementById('detailModal');
-        if (modal) {
-            document.getElementById('modalTitle').innerText = title;
-            document.getElementById('modalDesc').innerText = desc;
-            modal.style.display = 'flex';
-        }
-    };
-
-    window.closeModal = function () {
-        const modal = document.getElementById('detailModal');
-        if (modal) {
-            modal.style.display = 'none';
-        }
-    };
-
-    window.onclick = function (event) {
-        const modal = document.getElementById('detailModal');
-        if (event.target == modal) {
-            modal.style.display = 'none';
-        }
-    };
 
     // Form kontak
     const contactForm = document.getElementById('contactForm');
