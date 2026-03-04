@@ -5,7 +5,8 @@ $ogTitle = 'InoKrea Digital Studio';
 $ogDesc = 'Solusi digital untuk perusahaan: website, sistem aplikasi, dan desain grafis.';
 $videoSource = "assets/video/video.mp4";
 $siteTitle = "InoKrea Digital Studio";
-$siteTagline = "Kami membantu bisnis Anda tampil profesional secara digital.";
+$siteTitle2 = "Where Creativity Meets Technology.";
+$siteTagline = "Kami membantu bisnis Anda tampil profesional secara digital, dengan website yang cepat, responsif, dan dirancang untuk meningkatkan kepercayaan serta menghasilkan pertumbuhan nyata bagi bisnis Anda.";
 include 'includes/header.php';
 ?>
 
@@ -15,6 +16,7 @@ include 'includes/header.php';
 
         <div class="hero-text">
             <h1><?php echo $siteTitle; ?></h1>
+            <h2><?php echo $siteTitle2; ?></h2>
             <p><?php echo $siteTagline; ?></p>
 
             <div class="hero-buttons">

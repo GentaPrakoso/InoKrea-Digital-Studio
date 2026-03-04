@@ -487,8 +487,13 @@ SECTION
 
 .hero-text h1 {
     font-size: 48px;
-    margin-bottom: 20px;
     font-weight: 700;
+}
+
+.hero-text h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 500;
 }
 
 .hero-text p {
@@ -619,6 +624,9 @@ SECTION
 
 .ino-hero .hero-description {
     font-size: 17px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.8;
     opacity: 0.9;
     max-width: 520px;
     margin-bottom: 30px;
@@ -1043,6 +1051,8 @@ SECTION
 .about-text p {
     margin-bottom: 20px;
     color: #555;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 /* ================= VISI MISI ================= */
