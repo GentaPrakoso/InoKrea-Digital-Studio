@@ -249,7 +249,7 @@ include 'includes/header.php';
     <div id="portofolio" class="container fade-in">
         <h2 class="section-title">Portofolio</h2>
         <p class="section-subtitle">Kategori utama proyek yang menjadi fokus pengembangan kami.</p>
-        <div class="portfolio-preview-grid card">
+        <div class="service-grid">
             <div class="portfolio-item">
                 <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="Website Company">
                 <div class="portfolio-overlay">
