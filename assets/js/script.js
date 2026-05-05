@@ -125,3 +125,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
+// Hitung karakter textarea -->
+
+(function () {
+    const textarea = document.getElementById('pesan');
+    const counter  = document.getElementById('charCount');
+    if (!textarea || !counter) return;
+    const update = () => { counter.textContent = textarea.value.length; };
+    textarea.addEventListener('input', update);
+    update(); // inisialisasi untuk repopulate
+})();
+

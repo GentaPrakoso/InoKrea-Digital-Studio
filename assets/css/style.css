@@ -2440,3 +2440,166 @@ html {
     transform: translateY(-12px);
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
 }
+
+/* ===== Style Tambahan Form ===== */
+
+.contact-form-wrapper {
+    background: var(--card-bg, #fff);
+    border-radius: 16px;
+    padding: 48px 40px;
+    box-shadow: 0 4px 32px rgba(0, 0, 0, .08);
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+.form-title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+    color: var(--heading-color, #1a1a2e);
+}
+ 
+.form-subtitle {
+    color: var(--text-muted, #666);
+    margin-bottom: 28px;
+    font-size: .95rem;
+}
+ 
+.contact-form .form-group {
+    margin-bottom: 22px;
+    position: relative;
+}
+ 
+.contact-form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: .9rem;
+    color: var(--label-color, #333);
+}
+ 
+.required { color: #e74c3c; margin-left: 2px; }
+ 
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 13px 16px;
+    border: 1.5px solid var(--border-color, #dde1ea);
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: inherit;
+    background: var(--input-bg, #fafbff);
+    color: var(--text-color, #222);
+    transition: border-color .25s, box-shadow .25s;
+    box-sizing: border-box;
+}
+ 
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: var(--primary, #4f46e5);
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, .12);
+}
+ 
+.contact-form textarea {
+    resize: vertical;
+    min-height: 130px;
+}
+ 
+.char-counter {
+    display: block;
+    text-align: right;
+    font-size: .78rem;
+    color: var(--text-muted, #999);
+    margin-top: 4px;
+}
+ 
+.btn-submit {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 14px 36px;
+    background: var(--primary, #4f46e5);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background .25s, transform .15s, box-shadow .25s;
+}
+ 
+.btn-submit:hover {
+    background: var(--primary-dark, #3730a3);
+    box-shadow: 0 6px 20px rgba(79, 70, 229, .35);
+    transform: translateY(-1px);
+}
+ 
+.btn-submit:active { transform: translateY(0); }
+ 
+/* Alert */
+.alert {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 18px;
+    border-radius: 10px;
+    margin-bottom: 22px;
+    font-size: .95rem;
+    font-weight: 500;
+}
+ 
+.alert-success {
+    background: #ecfdf5;
+    color: #065f46;
+    border: 1px solid #6ee7b7;
+}
+ 
+.alert-error {
+    background: #fef2f2;
+    color: #991b1b;
+    border: 1px solid #fca5a5;
+}
+ 
+@media (max-width: 600px) {
+    .contact-form-wrapper { padding: 28px 18px; }
+}
+
+/* Wrapper utama: kiri (info+map) dan kanan (form) */
+.contact-top-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: start;
+}
+
+/* Kolom kiri: info kontak + map ditumpuk */
+.contact-left-col {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* Map di bawah info kontak, bukan full width */
+.contact-map {
+    border-radius: 12px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.contact-map iframe {
+    width: 100%;
+    height: 390px;
+    border: none;
+    display: block;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .contact-top-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
