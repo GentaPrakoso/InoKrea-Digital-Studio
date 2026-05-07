@@ -72,7 +72,7 @@ include 'includes/header.php';
                 </div>
             </div>
 
-                        <div class="portfolio-card" data-category="desain">
+            <div class="portfolio-card" data-category="desain">
                 <img src="assets/img/9.png">
                 <div class="portfolio-info">
                     <h4>Logo</h4>
@@ -128,6 +128,35 @@ include 'includes/header.php';
                 </div>
             </div>
 
+            <div class="portfolio-card" data-category="website">
+                <img src="assets/img/umkm_1.png">
+                <div class="portfolio-info">
+                    <h4>Website UMKM</h4>
+                    <p></p>
+                    <button class="btn-detail"
+                        data-desc=""
+                        data-images="assets/img/umkm_1.png|assets/img/umkm_2.png"
+                        onclick="showDetail(this)">
+                        Lihat Detail
+                    </button>
+                </div>
+            </div>
+
+            <div class="portfolio-card" data-category="desain">
+                <img src="assets/img/desain/depan.jpg">
+                <div class="portfolio-info">
+                    <h4>PT Hutama Karya</h4>
+                    <p></p>
+                    <button class="btn-detail"
+                        data-desc=""
+                        data-images="assets/img/desain/depan.jpg|assets/img/desain/D-1.png|assets/img/desain/h7.jpg|assets/img/desain/kitchen_1.jpg
+                        |assets/img/desain/mushola_1.jpg|assets/img/desain/toiletpria_1.jpg|assets/img/desain/toiletwanita_1.jpg|assets/img/desain/belakang.png"
+                        onclick="showDetail(this)">
+                        Lihat Detail
+                    </button>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
@@ -148,39 +177,39 @@ include 'includes/header.php';
 </div>
 
 <script>
-let currentImages = [];
-let currentIndex = 0;
+    let currentImages = [];
+    let currentIndex = 0;
 
-function showDetail(button) {
-    const card = button.closest(".portfolio-card");
+    function showDetail(button) {
+        const card = button.closest(".portfolio-card");
 
-    const title = card.querySelector("h4").innerText;
-    const desc = button.getAttribute("data-desc");
-    const images = button.getAttribute("data-images");
+        const title = card.querySelector("h4").innerText;
+        const desc = button.getAttribute("data-desc");
+        const images = button.getAttribute("data-images");
 
-    currentImages = images.split("|");
-    currentIndex = 0;
+        currentImages = images.split("|");
+        currentIndex = 0;
 
-    document.getElementById("modalTitle").innerText = title;
-    document.getElementById("modalDesc").innerText = desc;
-    document.getElementById("modalImage").src = currentImages[currentIndex];
+        document.getElementById("modalTitle").innerText = title;
+        document.getElementById("modalDesc").innerText = desc;
+        document.getElementById("modalImage").src = currentImages[currentIndex];
 
-    document.getElementById("detailModal").style.display = "flex";
-}
+        document.getElementById("detailModal").style.display = "flex";
+    }
 
-function nextImage() {
-    currentIndex = (currentIndex + 1) % currentImages.length;
-    document.getElementById("modalImage").src = currentImages[currentIndex];
-}
+    function nextImage() {
+        currentIndex = (currentIndex + 1) % currentImages.length;
+        document.getElementById("modalImage").src = currentImages[currentIndex];
+    }
 
-function prevImage() {
-    currentIndex = (currentIndex - 1 + currentImages.length) % currentImages.length;
-    document.getElementById("modalImage").src = currentImages[currentIndex];
-}
+    function prevImage() {
+        currentIndex = (currentIndex - 1 + currentImages.length) % currentImages.length;
+        document.getElementById("modalImage").src = currentImages[currentIndex];
+    }
 
-function closeModal() {
-    document.getElementById("detailModal").style.display = "none";
-}
+    function closeModal() {
+        document.getElementById("detailModal").style.display = "none";
+    }
 </script>
 
 <?php include 'includes/footer.php'; ?>

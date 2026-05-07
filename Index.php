@@ -109,6 +109,92 @@ include 'includes/header.php';
     </div>
 </section>
 
+<!-- IMPLEMENTASI DESAIN -->
+<section class="implementasi-section">
+
+    <div class="implementasi-header">
+
+        <h2>Implementasi Projek Klien</h2>
+        <p>
+            Beberapa projek desain dan website kami telah digunakan untuk kebutuhan identitas,
+            publikasi, dan implementasi langsung di berbagai kegiatan serta lingkungan.
+        </p>
+    </div>
+
+    <div class="implementasi-grid">
+
+        <!-- CARD 1 -->
+        <div class="implementasi-card">
+            <img src="assets/img/20.png" alt="Website PT Modern Aulia Mandiri">
+
+            <div class="implementasi-content">
+                <span>Company Profile Website</span>
+
+                <h3>Website PT Modern Aulia Mandiri</h3>
+
+                <p>
+                    Pengembangan website company profile untuk memperkuat branding perusahaan
+                    dan menampilkan informasi bisnis secara profesional.
+                </p>
+
+                <a href="https://modernauliamandiri.id/"
+                    target="_blank"
+                    class="implementasi-btn">
+
+                    Kunjungi Website →
+                </a>
+            </div>
+        </div>
+
+        <div class="implementasi-card">
+            <img src="assets/img/1.png" alt="Website PT Karya Bihar Mandiri">
+
+            <div class="implementasi-content">
+                <span>Company Profile Website</span>
+
+                <h3>Website PT Karya Bihar Mandiri</h3>
+
+                <p>
+                    Website company profile responsif yang dirancang untuk memudahkan penyampaian
+                    informasi layanan dan profil perusahaan kepada klien.
+                </p>
+
+                <a href="https://karyabiharmandiri.id/"
+                    target="_blank"
+                    class="implementasi-btn">
+
+                    Kunjungi Website →
+                </a>
+            </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="implementasi-card">
+            <img src="assets/img/desain/coverr.png" alt="Stiker Kamar">
+
+            <div class="implementasi-content">
+                <span>Desain Grafis</span>
+
+                <h3>Desain Visual Huntara Senen</h3>
+
+                <p>
+                    Desain visual untuk kebutuhan Huntara Senen bersama PT Hutama Karya
+                    yang turut tampil dalam dokumentasi kegiatan di media televisi.
+                </p>
+
+                <a href="https://www.instagram.com/reel/DX_mGJXNgXD/?igsh=bnRjdGk1ZzQ3Y3Zo"
+                    target="_blank"
+                    class="implementasi-btn">
+
+                    Lihat Dokumentasi →
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
 <!-- Ringkasan Layanan -->
 <section id="layanan" class="section layanan2">
     <div class="container fade-in">
@@ -210,7 +296,7 @@ include 'includes/header.php';
                 </a>
             </div>
 
-             <!-- Sistem -->
+            <!-- Sistem -->
             <div class="pricing-card regular fade-service delay-3">
                 <h3>Web Sistem Custom</h3>
                 <p class="price">Mulai dari <strong>Rp 3.500.000</strong></p>
@@ -251,21 +337,21 @@ include 'includes/header.php';
         <p class="section-subtitle">Kategori utama proyek yang menjadi fokus pengembangan kami.</p>
         <div class="service-grid">
             <div class="portfolio-item">
-                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="Website Company">
+                <img src="assets/img/website_mockup.jpg.jpeg" alt="Website Company">
                 <div class="portfolio-overlay">
                     <h4>Website</h4>
                     <p></p>
                 </div>
             </div>
             <div class="portfolio-item">
-                <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1074&q=80" alt="Aplikasi Custom">
+                <img src="assets/img/sistem_mockup.jpg.jpeg" alt="Aplikasi Custom">
                 <div class="portfolio-overlay">
                     <h4>Sistem Aplikasi</h4>
                     <p></p>
                 </div>
             </div>
             <div class="portfolio-item">
-                <img src="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="Desain Grafis">
+                <img src="assets/img/desain_mockup.jpg.jpeg" alt="Desain Grafis">
                 <div class="portfolio-overlay">
                     <h4>Desain Grafis</h4>
                     <p></p>
